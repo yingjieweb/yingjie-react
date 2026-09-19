@@ -10,6 +10,7 @@ import qfnu from "../../../assets/icons/qfnu.png";
 import neu from "../../../assets/icons/neu.png";
 import sohu from "../../../assets/icons/sohu.png";
 import fta from "../../../assets/icons/fta.png";
+import ammo from "../../../assets/icons/ammo.jpeg";
 // i18n
 import { useTranslation } from "react-i18next";
 // styles
@@ -103,11 +104,29 @@ const Life: React.FC = () => {
         header={[
           t("timeline.nanjing"),
           <span className={styles.position}>
-            {t("timeline.joined")} <HighLight>{t("timeline.fta")}</HighLight> 🚚{" "}
-            <span className={styles.typed} ref={el} />
+            {t("timeline.joined")} <HighLight>{t("timeline.fta")}</HighLight> 🚚
           </span>,
         ]}
         content={[t("timeline.reunion")]}
+      />
+      <TimelineHeader>2025</TimelineHeader>
+      <TimelineItem
+        time={t("timeline.month.march")}
+        node={
+          <span className={styles.customNode}>
+            <img className={styles.ammoLogo} width={48} src={ammo} alt="AMMO" />
+          </span>
+        }
+        header={[
+          t("timeline.newChapter"),
+          <span className={styles.position} key="ammo">
+            {t("timeline.startedBuilding")}{" "}
+            <HighLight>{t("timeline.ammo")}</HighLight>{" "}
+            {t("timeline.entrepreneurship")}
+            <span className={styles.typed} ref={el} />
+          </span>,
+        ]}
+        content={[t("timeline.fullStack"), t("timeline.aiAgent")]}
       />
       <TimelineHeader>🤔...</TimelineHeader>
     </Timeline>

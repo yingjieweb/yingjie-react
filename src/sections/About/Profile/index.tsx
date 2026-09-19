@@ -59,9 +59,6 @@ const Profile: React.FC = () => {
             />
           </Paragraph>
           <Paragraph>
-            <Trans i18nKey="about.profile.principle" />
-          </Paragraph>
-          <Paragraph>
             <Trans
               i18nKey="about.profile.career"
               components={{ highlight: <HighLight /> }}

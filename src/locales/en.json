@@ -24,15 +24,14 @@
   },
   "about": {
     "title": "About Me",
-    "subtitle": "👋 Hi, I'm yingjieweb 👻",
+    "subtitle": "👋 Hi, I'm Yingjieweb 👻",
     "profile": {
-      "intro": "I'm a <highlight>frontend enthusiast</highlight> from Yantai, Shandong. I currently work as a frontend developer at <highlight>Sohu in Beijing</highlight> 🧱",
+      "intro": "I'm a <highlight>full-stack developer</highlight> 🐒 from Yantai, Shandong. I'm currently building at <highlight>AMMO</highlight>, working mainly on AI agents across frontend and backend 🧱",
       "undergraduate": "I studied Software Engineering at <highlight>Qufu Normal University in Jining</highlight>. While there, I served in the university's <highlight>National Flag Guard</highlight> 🇨🇳 and trained incoming students. I sometimes wish I had joined the military for the experience 😕.",
-      "graduate": "After graduation, I spent three years pursuing a master's degree at <highlight>Northeastern University in Shenyang</highlight>. Compared with backend development and algorithms, I found that I <highlight>enjoy frontend development more</highlight>. Doing what you love can't be wrong 🤔",
-      "hobbies": "Besides coding, I enjoy playing basketball with friends 🏀 and working out 🏋 ...",
+      "graduate": "After graduation, I spent three years studying Artificial Intelligence at <highlight>Northeastern University in Shenyang</highlight>. I explored frontend development on my own, and years later found my way back to <highlight>AI</highlight> while expanding into backend development—the pieces finally came together 🤖",
+      "hobbies": "Besides coding, I enjoy playing basketball 🏀 and pool 🎱 with friends, and working out now and then 🏋 ...",
       "dream": "As a child, I dreamed of becoming an astronaut 👨‍🚀. These days I focus less on one grand dream and more on a series of <highlight>small goals</highlight> 🌟",
-      "principle": "I hope to stay true to myself and keep learning frontend development one step at a time 🤔",
-      "career": "I'll keep learning frontend technologies 🎯 and work toward becoming a <highlight>senior frontend engineer</highlight> in three to five years! 👷"
+      "career": "I hope not only to write good code, but also to build <highlight>products people genuinely want to use</highlight> 🚀"
     },
     "goal": {
       "prefix": "I enjoy",
@@ -42,7 +41,12 @@
     }
   },
   "timeline": {
-    "month": { "june": "Jun", "july": "Jul", "september": "Sep" },
+    "month": {
+      "march": "Mar",
+      "june": "Jun",
+      "july": "Jul",
+      "september": "Sep"
+    },
     "study": "🙇‍♂️ Studied hard...",
     "bachelorGraduation": "🎓 Bachelor's degree 🎉",
     "jining": "Jining, Shandong",
@@ -61,7 +65,19 @@
     "nanjing": "Nanjing, Jiangsu",
     "fta": "@Full Truck Alliance",
     "reunion": "No more long-distance relationship with my girlfriend! 🎉",
-    "roles": ["Coder", "Worker", "Programmer", "Engineer", "Frontend Developer"]
+    "newChapter": "A new chapter 🚀",
+    "startedBuilding": "Started building at",
+    "entrepreneurship": "🧱",
+    "ammo": "@AMMO",
+    "fullStack": "Moved beyond frontend into full-stack development",
+    "aiAgent": "Now focused on AI agents 🤖",
+    "roles": [
+      "Programmer",
+      "Engineer",
+      "Full-stack Developer",
+      "AI Agent Builder",
+      "Entrepreneur"
+    ]
   },
   "projects": {
     "title": "Projects",

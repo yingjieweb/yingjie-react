@@ -24,15 +24,14 @@
   },
   "about": {
     "title": "关于自己",
-    "subtitle": "👋，我是 yingjieweb 👻",
+    "subtitle": "👋，我是 Yingjieweb 👻",
     "profile": {
-      "intro": "一名 <highlight>前端爱好者</highlight>，山东烟台人。目前在 <highlight>搜狐 @ 北京</highlight> 从事前端开发 🧱",
+      "intro": "一名 <highlight>全栈开发者</highlight> 🐒，山东烟台人。目前在 <highlight>AMMO</highlight> 创业，主要折腾 AI Agent，也写前端和后端 🧱",
       "undergraduate": "本科就读于省内的 <highlight>曲阜师范大学 @ 济宁</highlight> 软件工程专业。大学期间，参加过学校的 <highlight>国旗护卫队</highlight> 🇨🇳，担任过新生军训教官，后悔没去当兵历练一下 😕。",
-      "graduate": "毕业之后去 <highlight>东北大学 @ 沈阳</highlight> 读了 3 年研究生。相比后端和算法，个人感觉还是 <highlight>更喜欢前端</highlight>，觉得做喜欢的事情是不会有错的 🤔",
-      "hobbies": "平时除了喜欢写点代码之外，还喜欢和小伙伴们打打篮球 🏀，健健身 🏋 ...",
+      "graduate": "毕业之后去 <highlight>东北大学 @ 沈阳</highlight> 读了 3 年研究生，研究方向是人工智能。那时主要自己折腾前端，如今又绕回 <highlight>AI</highlight>，也开始写后端——技术栈兜兜转转，终于串起来了 🤖",
+      "hobbies": "平时除了写代码，也喜欢和小伙伴打打篮球 🏀、台球 🎱，偶尔健健身 🏋 ...",
       "dream": "小时候的梦想是当宇航员 👨‍🚀，当下这个年纪好像没什么大的梦想，而是一个个阶段性的 <highlight>小目标</highlight> 🌟",
-      "principle": "希望自己能不忘初心，踏踏实实学点前端 🤔",
-      "career": "持续学习前端知识 🎯，争取三到五年能够成为一名 <highlight>高级前端工程师</highlight>！👷"
+      "career": "希望自己不只是把代码写好，也能做出真正 <highlight>有人愿意使用的产品</highlight> 🚀"
     },
     "goal": {
       "prefix": "喜欢",
@@ -42,7 +41,12 @@
     }
   },
   "timeline": {
-    "month": { "june": "6月", "july": "7月", "september": "9月" },
+    "month": {
+      "march": "3月",
+      "june": "6月",
+      "july": "7月",
+      "september": "9月"
+    },
     "study": "🙇‍♂️ 好好学习...",
     "bachelorGraduation": "🎓 本科毕业 🎉",
     "jining": "济宁，山东",
@@ -61,7 +65,13 @@
     "nanjing": "南京，江苏",
     "fta": "@满帮",
     "reunion": "和女朋友结束异地恋啦！🎉",
-    "roles": ["码农", "打工人", "程序员", "工程师", "前端开发"]
+    "newChapter": "开启新旅程 🚀",
+    "startedBuilding": "开始在",
+    "entrepreneurship": "创业 🧱",
+    "ammo": "@AMMO",
+    "fullStack": "从前端走向全栈",
+    "aiAgent": "开始折腾 AI Agent 🤖",
+    "roles": ["程序员", "工程师", "全栈开发", "AI Agent Builder", "创业者"]
   },
   "projects": {
     "title": "个人项目",
