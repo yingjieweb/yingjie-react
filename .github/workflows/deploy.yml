@@ -23,7 +23,7 @@ jobs:
           node-version: 18
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Build
         run: npm run build
@@ -51,7 +51,7 @@ jobs:
           node-version: 18
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Build
         run: npm run build
@@ -63,4 +63,3 @@ jobs:
           external_repository: yingjieweb/yingjieweb.github.io
           publish_branch: master
           publish_dir: ./build
-
