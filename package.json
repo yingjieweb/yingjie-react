@@ -28,6 +28,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "format": "prettier --write \"src/**/*.{ts,tsx,scss,json}\" \"public/**/*.{html,json}\"",
+    "format:check": "prettier --check \"src/**/*.{ts,tsx,scss,json}\" \"public/**/*.{html,json}\"",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -49,6 +51,7 @@
     ]
   },
   "devDependencies": {
+    "prettier": "^3.9.8",
     "typescript": "^5.8.3"
   }
 }

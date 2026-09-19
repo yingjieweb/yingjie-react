@@ -25,15 +25,24 @@ const Profile: React.FC = () => {
           <img className={styles.avatar} src={avatar} alt="头像" />
         </Fade>
 
-        <Fade  direction="up">
+        <Fade direction="up">
           <Paragraph>
-            <Trans i18nKey="about.profile.intro" components={{ highlight: <HighLight /> }} />
+            <Trans
+              i18nKey="about.profile.intro"
+              components={{ highlight: <HighLight /> }}
+            />
           </Paragraph>
           <Paragraph>
-            <Trans i18nKey="about.profile.undergraduate" components={{ highlight: <HighLight /> }} />
+            <Trans
+              i18nKey="about.profile.undergraduate"
+              components={{ highlight: <HighLight /> }}
+            />
           </Paragraph>
           <Paragraph>
-            <Trans i18nKey="about.profile.graduate" components={{ highlight: <HighLight /> }} />
+            <Trans
+              i18nKey="about.profile.graduate"
+              components={{ highlight: <HighLight /> }}
+            />
           </Paragraph>
         </Fade>
 
@@ -44,11 +53,19 @@ const Profile: React.FC = () => {
             <Trans i18nKey="about.profile.hobbies" />
           </Paragraph>
           <Paragraph>
-            <Trans i18nKey="about.profile.dream" components={{ highlight: <HighLight /> }} />
+            <Trans
+              i18nKey="about.profile.dream"
+              components={{ highlight: <HighLight /> }}
+            />
           </Paragraph>
-          <Paragraph><Trans i18nKey="about.profile.principle" /></Paragraph>
           <Paragraph>
-            <Trans i18nKey="about.profile.career" components={{ highlight: <HighLight /> }} />
+            <Trans i18nKey="about.profile.principle" />
+          </Paragraph>
+          <Paragraph>
+            <Trans
+              i18nKey="about.profile.career"
+              components={{ highlight: <HighLight /> }}
+            />
           </Paragraph>
         </Fade>
       </Col>

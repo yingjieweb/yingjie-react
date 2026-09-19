@@ -36,11 +36,14 @@ const Home: React.FC = () => {
           <p>{t("home.greeting")}</p>
           <p>{t("home.role")}</p>
           <p>
-            {t("home.workingPrefix")}<span className={styles.sohu}> {t("home.company")}</span>{t("punctuation.comma")}
+            {t("home.workingPrefix")}
+            <span className={styles.sohu}> {t("home.company")}</span>
+            {t("punctuation.comma")}
           </p>
           <p>
             ✍ <span className={styles.react}> React </span>
-            <span className={styles.vue}> Vue</span>{t("punctuation.comma")}
+            <span className={styles.vue}> Vue</span>
+            {t("punctuation.comma")}
           </p>
           <p>
             {t("home.sometimes")}

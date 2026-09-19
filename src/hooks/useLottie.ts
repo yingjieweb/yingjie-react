@@ -1,5 +1,9 @@
 import { useEffect, useRef } from "react";
-import lottie, { AnimationConfigWithData, AnimationConfigWithPath, AnimationItem } from "lottie-web";
+import lottie, {
+  AnimationConfigWithData,
+  AnimationConfigWithPath,
+  AnimationItem,
+} from "lottie-web";
 
 const useLottie = (
   animationData: string | object,

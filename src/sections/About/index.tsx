@@ -20,25 +20,26 @@ const About: React.FC = () => {
   const { t } = useTranslation();
 
   return (
-  <Section id="about" className={styles.about}>
-    <Title tag="h2">{t("about.title")}</Title>
+    <Section id="about" className={styles.about}>
+      <Title tag="h2">{t("about.title")}</Title>
 
-    <Title tag="h3">{t("about.subtitle")}</Title>
+      <Title tag="h3">{t("about.subtitle")}</Title>
 
-    <Profile />
+      <Profile />
 
-    <Life />
+      <Life />
 
-    <Fade direction="up">
-      <Paragraph className={styles.goal}>
-        {t("about.goal.prefix")} <HighLight>{t("about.goal.code")}</HighLight>{t("about.goal.middle")}
-        <br />
-        {t("about.goal.suffix")} 👉{" "}
-        <span className={styles.justForFun}>Just for fun ~</span>
-      </Paragraph>
-    </Fade>
+      <Fade direction="up">
+        <Paragraph className={styles.goal}>
+          {t("about.goal.prefix")} <HighLight>{t("about.goal.code")}</HighLight>
+          {t("about.goal.middle")}
+          <br />
+          {t("about.goal.suffix")} 👉{" "}
+          <span className={styles.justForFun}>Just for fun ~</span>
+        </Paragraph>
+      </Fade>
 
-    {/* <Fade direction="up">
+      {/* <Fade direction="up">
       <div>
         <Button
           onClick={() => window.open(resumeUrl, "_blank")}
@@ -48,7 +49,7 @@ const About: React.FC = () => {
         </Button>
       </div>
     </Fade> */}
-  </Section>
+    </Section>
   );
 };
 

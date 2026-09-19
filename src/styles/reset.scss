@@ -4,20 +4,23 @@
   box-sizing: border-box;
   font-size: 16px;
 }
-a{
+a {
   text-decoration: none;
   color: inherit;
 }
-ul, ol{
+ul,
+ol {
   list-style: none;
 }
-button, input{
+button,
+input {
   font: inherit;
 }
-:focus{
+:focus {
   outline: none;
 }
-textarea, pre{
+textarea,
+pre {
   font-family: Arial, Helvetica, sans-serif;
   white-space: pre-wrap;
   word-wrap: break-word;

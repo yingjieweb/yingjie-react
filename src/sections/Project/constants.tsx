@@ -66,11 +66,7 @@ export const getProjects = (t: TFunction): ProjectItem[] => [
     logo: leagueoflegendsLogo,
     title: t("projects.items.league.title"),
     content: <Image src={leagueoflegendsUI} />,
-    description: (
-      <p>
-        {t("projects.items.league.description")}
-      </p>
-    ),
+    description: <p>{t("projects.items.league.description")}</p>,
     links: [
       {
         content: "https://yingjieweb.github.io/league-ui-doc/#/intro",
@@ -98,11 +94,7 @@ export const getProjects = (t: TFunction): ProjectItem[] => [
     logoFont: "🎓",
     title: t("projects.items.campus.title"),
     content: <Image src={campusUI} />,
-    description: (
-      <p>
-        {t("projects.items.campus.description")}
-      </p>
-    ),
+    description: <p>{t("projects.items.campus.description")}</p>,
     links: [
       {
         content: "https://yingjieweb.github.io/campus/#/campus-recruit",
@@ -124,11 +116,7 @@ export const getProjects = (t: TFunction): ProjectItem[] => [
     logoFont: "📡",
     title: t("projects.items.navigator.title"),
     content: <Image src={navigatorUI} />,
-    description: (
-      <p>
-        {t("projects.items.navigator.description")}
-      </p>
-    ),
+    description: <p>{t("projects.items.navigator.description")}</p>,
     links: [
       {
         content: "https://yingjieweb.github.io/navigator/",
@@ -152,11 +140,7 @@ export const getProjects = (t: TFunction): ProjectItem[] => [
     logoFont: "📒",
     title: t("projects.items.charge.title"),
     content: <Image src={chargeUI} />,
-    description: (
-      <p>
-        {t("projects.items.charge.description")}
-      </p>
-    ),
+    description: <p>{t("projects.items.charge.description")}</p>,
     links: [
       {
         content: "https://yingjieweb.github.io/charge/#/money",
@@ -180,11 +164,7 @@ export const getProjects = (t: TFunction): ProjectItem[] => [
     logoFont: "🌲",
     title: t("projects.items.dombox.title"),
     content: <Image src={domboxUI} />,
-    description: (
-      <p>
-        {t("projects.items.dombox.description")}
-      </p>
-    ),
+    description: <p>{t("projects.items.dombox.description")}</p>,
     links: [
       {
         content: "https://github.com/yingjieweb/dombox",
@@ -197,11 +177,7 @@ export const getProjects = (t: TFunction): ProjectItem[] => [
     logoFont: "✨",
     title: t("projects.items.sunshine.title"),
     content: <Image src={sunshineUI} />,
-    description: (
-      <p>
-        {t("projects.items.sunshine.description")}
-      </p>
-    ),
+    description: <p>{t("projects.items.sunshine.description")}</p>,
     links: [
       {
         content: "https://yingjieweb.github.io/sunshine/#/hypnosis-circle",
@@ -221,11 +197,7 @@ export const getProjects = (t: TFunction): ProjectItem[] => [
     logoFont: "🌏",
     title: t("projects.items.amap.title"),
     content: <Image src={amapOptimizationDemoUI} />,
-    description: (
-      <p>
-        {t("projects.items.amap.description")}
-      </p>
-    ),
+    description: <p>{t("projects.items.amap.description")}</p>,
     links: [
       {
         content: "https://yingjieweb.github.io/amap-optimization-demo/",
@@ -250,11 +222,7 @@ export const getProjects = (t: TFunction): ProjectItem[] => [
     logoFont: "👆",
     title: t("projects.items.dnd.title"),
     content: <Image src={dndDraggableTreeDemoUI} />,
-    description: (
-      <p>
-        {t("projects.items.dnd.description")}
-      </p>
-    ),
+    description: <p>{t("projects.items.dnd.description")}</p>,
     links: [
       {
         content: "https://yingjieweb.github.io/dnd-draggable-tree-demo/",
@@ -275,11 +243,7 @@ export const getProjects = (t: TFunction): ProjectItem[] => [
     logoFont: "🧷",
     title: t("projects.items.rbac.title"),
     content: <Image src={rbacCheckboxTreeDemoUI} />,
-    description: (
-      <p>
-        {t("projects.items.rbac.description")}
-      </p>
-    ),
+    description: <p>{t("projects.items.rbac.description")}</p>,
     links: [
       {
         content: "https://yingjieweb.github.io/RBAC-checkbox-tree-demo/",

@@ -39,7 +39,9 @@ const TimelineItem: FC<Props> = (props) => {
         {node || <div className={styles.defaultNode} />}
       </div>
 
-      <Fade direction={isMobile ? "up" : direction === "left" ? "left" : "right"}>
+      <Fade
+        direction={isMobile ? "up" : direction === "left" ? "left" : "right"}
+      >
         <div
           className={classNames(
             styles.content,

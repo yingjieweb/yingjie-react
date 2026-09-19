@@ -41,11 +41,11 @@ const Contact: React.FC = () => {
         EMAILJS_CONFIG.PUBLIC_KEY
       )
       .then(() => {
-        message.success(t('contact.messages.success'));
+        message.success(t("contact.messages.success"));
         form.resetFields();
       })
       .catch(() => {
-        message.error(t('contact.messages.error'));
+        message.error(t("contact.messages.error"));
       })
       .finally(() => {
         setIsLoading(false);
@@ -60,13 +60,15 @@ const Contact: React.FC = () => {
     >
       <Fade direction="up">
         <div className={styles.container}>
-          <Title tag="h2">{t('contact.title')}</Title>
+          <Title tag="h2">{t("contact.title")}</Title>
           <Form form={form} onFinish={onFinish} layout="vertical">
             <Form.Item
               name="name"
-              rules={[{ required: true, message: t('contact.form.name.required') }]}
+              rules={[
+                { required: true, message: t("contact.form.name.required") },
+              ]}
             >
-              <Input placeholder={t('contact.form.name.placeholder')} />
+              <Input placeholder={t("contact.form.name.placeholder")} />
             </Form.Item>
             <Form.Item
               name="email"
@@ -74,17 +76,22 @@ const Contact: React.FC = () => {
                 {
                   required: true,
                   type: "email",
-                  message: t('contact.form.email.required'),
+                  message: t("contact.form.email.required"),
                 },
               ]}
             >
-              <Input placeholder={t('contact.form.email.placeholder')} />
+              <Input placeholder={t("contact.form.email.placeholder")} />
             </Form.Item>
             <Form.Item
               name="message"
-              rules={[{ required: true, message: t('contact.form.message.required') }]}
+              rules={[
+                { required: true, message: t("contact.form.message.required") },
+              ]}
             >
-              <Input.TextArea placeholder={t('contact.form.message.placeholder')} rows={4} />
+              <Input.TextArea
+                placeholder={t("contact.form.message.placeholder")}
+                rows={4}
+              />
             </Form.Item>
             <Form.Item>
               <Button
@@ -94,7 +101,7 @@ const Contact: React.FC = () => {
                 loading={isLoading}
                 disabled={isLoading}
               >
-                {t('contact.form.submit')}
+                {t("contact.form.submit")}
               </Button>
             </Form.Item>
           </Form>

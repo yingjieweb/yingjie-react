@@ -19,7 +19,8 @@ const Nav: React.FC = () => {
   const [verticalNavVisible, setVerticalNavVisible] = useState<boolean>(false);
 
   useEffect(() => {
-    document.documentElement.lang = i18n.resolvedLanguage === "en" ? "en" : "zh-CN";
+    document.documentElement.lang =
+      i18n.resolvedLanguage === "en" ? "en" : "zh-CN";
     document.title = t("meta.title");
   }, [i18n.resolvedLanguage, t]);
 
@@ -43,9 +44,9 @@ const Nav: React.FC = () => {
               [styles.active]: nav.targetEl === activeItem,
             })}
             onClick={() => {
-              scrollTo(nav.targetEl)
+              scrollTo(nav.targetEl);
               // @ts-ignore
-              _hmt.push(['_trackEvent', 'navigator', 'click', nav.targetEl]);
+              _hmt.push(["_trackEvent", "navigator", "click", nav.targetEl]);
             }}
           >
             {t(nav.text)}
@@ -53,7 +54,9 @@ const Nav: React.FC = () => {
         ))}
         <li
           className={styles.languageBtn}
-          onClick={() => i18n.changeLanguage(i18n.resolvedLanguage === "zh" ? "en" : "zh")}
+          onClick={() =>
+            i18n.changeLanguage(i18n.resolvedLanguage === "zh" ? "en" : "zh")
+          }
           aria-label={t("language.switch")}
         >
           {i18n.resolvedLanguage === "zh" ? "EN" : "中"}

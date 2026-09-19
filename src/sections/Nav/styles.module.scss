@@ -16,7 +16,7 @@
     padding: 2px 4px;
     font-size: 1.5em;
     font-weight: bold;
-    color: #409EFF;
+    color: #409eff;
   }
   .horizontalNav {
     display: flex;
@@ -42,13 +42,13 @@
     &:hover,
     &.active,
     &.active a {
-      color: #409EFF;
+      color: #409eff;
     }
     &.navBtn {
       display: none;
     }
     &.languageBtn {
-      color: #409EFF;
+      color: #409eff;
     }
   }
   @media screen and (max-width: 992px) {

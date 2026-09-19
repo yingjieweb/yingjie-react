@@ -26,7 +26,11 @@ const Life: React.FC = () => {
   return (
     <Timeline>
       <TimelineHeader>1995</TimelineHeader>
-      <TimelineItem direction="right" time={t("timeline.month.september")} header="👶🏻" />
+      <TimelineItem
+        direction="right"
+        time={t("timeline.month.september")}
+        header="👶🏻"
+      />
       <TimelineHeader>...</TimelineHeader>
       <TimelineItem header={t("timeline.study")} />
       <TimelineHeader>2018</TimelineHeader>
@@ -42,7 +46,8 @@ const Life: React.FC = () => {
         content={[
           t("timeline.jining"),
           <span>
-            <HighLight>{t("timeline.qfnu")}</HighLight> @ {t("timeline.softwareEngineering")}
+            <HighLight>{t("timeline.qfnu")}</HighLight> @{" "}
+            {t("timeline.softwareEngineering")}
           </span>,
           t("timeline.codingJourney"),
         ]}
@@ -57,7 +62,8 @@ const Life: React.FC = () => {
         header={[
           t("timeline.shenyang"),
           <span>
-            {t("timeline.graduateAdmission")} <HighLight>{t("timeline.neu")}</HighLight>
+            {t("timeline.graduateAdmission")}{" "}
+            <HighLight>{t("timeline.neu")}</HighLight>
           </span>,
         ]}
         content={[t("timeline.graduateStudy")]}
@@ -79,7 +85,8 @@ const Life: React.FC = () => {
         header={[
           t("timeline.beijing"),
           <span className={styles.position}>
-            {t("timeline.joined")} <HighLight>{t("timeline.sohu")}</HighLight> 🦊
+            {t("timeline.joined")} <HighLight>{t("timeline.sohu")}</HighLight>{" "}
+            🦊
             <span className={styles.typed} />
           </span>,
         ]}
@@ -96,7 +103,7 @@ const Life: React.FC = () => {
         header={[
           t("timeline.nanjing"),
           <span className={styles.position}>
-            {t("timeline.joined")} <HighLight>{t("timeline.fta")}</HighLight> 🚚 {" "}
+            {t("timeline.joined")} <HighLight>{t("timeline.fta")}</HighLight> 🚚{" "}
             <span className={styles.typed} ref={el} />
           </span>,
         ]}
