@@ -10,6 +10,8 @@ import { detectMobile } from "../../utils";
 // constants
 import { contacts } from "./constants";
 import { EMAILJS_CONFIG } from "../../config/emailjs";
+// i18n
+import { useTranslation } from "react-i18next";
 // styles
 import styles from "./styles.module.scss";
 
@@ -18,6 +20,7 @@ const isMobile = detectMobile();
 const Contact: React.FC = () => {
   const [form] = Form.useForm();
   const [isLoading, setIsLoading] = useState(false);
+  const { t } = useTranslation();
 
   useEffect(() => {
     emailjs.init(EMAILJS_CONFIG.PUBLIC_KEY);
@@ -38,11 +41,11 @@ const Contact: React.FC = () => {
         EMAILJS_CONFIG.PUBLIC_KEY
       )
       .then(() => {
-        message.success("邮件已成功发送！");
+        message.success(t('contact.messages.success'));
         form.resetFields();
       })
       .catch(() => {
-        message.error("发送失败，请稍后再试。");
+        message.error(t('contact.messages.error'));
       })
       .finally(() => {
         setIsLoading(false);
@@ -57,13 +60,13 @@ const Contact: React.FC = () => {
     >
       <Fade direction="up">
         <div className={styles.container}>
-          <Title tag="h2">How to find me? 😉</Title>
+          <Title tag="h2">{t('contact.title')}</Title>
           <Form form={form} onFinish={onFinish} layout="vertical">
             <Form.Item
               name="name"
-              rules={[{ required: true, message: "敢问阁下尊姓大名？" }]}
+              rules={[{ required: true, message: t('contact.form.name.required') }]}
             >
-              <Input placeholder="阁下怎么称呼？" />
+              <Input placeholder={t('contact.form.name.placeholder')} />
             </Form.Item>
             <Form.Item
               name="email"
@@ -71,17 +74,17 @@ const Contact: React.FC = () => {
                 {
                   required: true,
                   type: "email",
-                  message: "敢问阁下的邮箱是？",
+                  message: t('contact.form.email.required'),
                 },
               ]}
             >
-              <Input placeholder="邮箱，方便联系" />
+              <Input placeholder={t('contact.form.email.placeholder')} />
             </Form.Item>
             <Form.Item
               name="message"
-              rules={[{ required: true, message: "多少说几句是个意思？" }]}
+              rules={[{ required: true, message: t('contact.form.message.required') }]}
             >
-              <Input.TextArea placeholder="留言，想说啥就说啥~" rows={4} />
+              <Input.TextArea placeholder={t('contact.form.message.placeholder')} rows={4} />
             </Form.Item>
             <Form.Item>
               <Button
@@ -91,7 +94,7 @@ const Contact: React.FC = () => {
                 loading={isLoading}
                 disabled={isLoading}
               >
-                发送消息
+                {t('contact.form.submit')}
               </Button>
             </Form.Item>
           </Form>

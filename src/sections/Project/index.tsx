@@ -5,15 +5,20 @@ import Title from "../../components/Title";
 import Section from "../../components/Section";
 import Item from "./Item";
 // constants
-import { projects } from "./constants";
+import { getProjects } from "./constants";
+// i18n
+import { useTranslation } from "react-i18next";
 // styles
 import styles from "./styles.module.scss";
 
 const Project: React.FC = () => {
+  const { t } = useTranslation();
+  const projects = getProjects(t);
+
   return (
     <Section id="project" className={styles.project}>
-      <Title tag="h2">个人项目</Title>
-      <Title tag="h3">超多好玩、有趣的项目和文章 👻</Title>
+      <Title tag="h2">{t("projects.title")}</Title>
+      <Title tag="h3">{t("projects.subtitle")}</Title>
 
       <Masonry
         className={styles.projectList}
@@ -26,7 +31,7 @@ const Project: React.FC = () => {
       </Masonry>
 
       <Title className={styles.footerTitle} tag="h3">
-        更多好玩、有趣的项目和文章正在路上 🐒
+        {t("projects.more")}
       </Title>
     </Section>
   );

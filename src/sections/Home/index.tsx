@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useMemo } from "react";
 import useTyped from "../../hooks/useTyped";
 import useLottie from "../../hooks/useLottie";
 // components
@@ -7,12 +7,17 @@ import { Fade } from "react-awesome-reveal";
 // constants
 import dragonLottieData from "../../assets/lottie/dragon.json";
 import arrowLottieData from "../../assets/lottie/arrow.json";
+// i18n
+import { useTranslation } from "react-i18next";
 // styles
 import styles from "./styles.module.scss";
 
-const strings = ["聊聊技术。", "写写博客。", "打打球。"];
-
 const Home: React.FC = () => {
+  const { t } = useTranslation();
+  const strings = useMemo(
+    () => [t("home.typed.tech"), t("home.typed.blog"), t("home.typed.sports")],
+    [t]
+  );
   const typedElement = useTyped(strings, { loop: true });
   const dragonLottieRef = useLottie(dragonLottieData);
   const arrowDownLottieRef = useLottie(arrowLottieData);
@@ -28,17 +33,17 @@ const Home: React.FC = () => {
     <section id="home" className={styles.home}>
       <Row className={styles.content}>
         <Col span={24} md={15} className={styles.intro}>
-          <p>👋 我是 Yingjieweb，</p>
-          <p>一名前端爱好者 🤩，</p>
+          <p>{t("home.greeting")}</p>
+          <p>{t("home.role")}</p>
           <p>
-            目前在<span className={styles.sohu}> 搜 狐 🧱</span>，
+            {t("home.workingPrefix")}<span className={styles.sohu}> {t("home.company")}</span>{t("punctuation.comma")}
           </p>
           <p>
             ✍ <span className={styles.react}> React </span>
-            <span className={styles.vue}> Vue</span>，
+            <span className={styles.vue}> Vue</span>{t("punctuation.comma")}
           </p>
           <p>
-            偶尔
+            {t("home.sometimes")}
             <span className={styles.sometime} ref={typedElement} />
           </p>
         </Col>

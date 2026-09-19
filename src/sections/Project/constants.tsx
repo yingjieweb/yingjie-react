@@ -1,6 +1,7 @@
 import { Image } from "antd";
 import { ProjectItem } from "./Item";
-import HighLight from "../../components/HighLight";
+// i18n
+import { TFunction } from "i18next";
 
 // links
 import link from "../../assets/svgs/link.svg";
@@ -60,15 +61,14 @@ import dndDraggableTreeDemoUI from "../../assets/screenshots/dndDraggableTreeDem
 import rbacCheckboxTreeDemoUI from "../../assets/screenshots/rbacCheckboxTreeDemo.gif";
 
 // 可视项目
-export const projects: ProjectItem[] = [
+export const getProjects = (t: TFunction): ProjectItem[] => [
   {
     logo: leagueoflegendsLogo,
-    title: "League of Legends UI",
+    title: t("projects.items.league.title"),
     content: <Image src={leagueoflegendsUI} />,
     description: (
       <p>
-        一个基于 <HighLight isDark>英雄联盟</HighLight> 样式的 UI 组件库，通过
-        Vue.js 开发。
+        {t("projects.items.league.description")}
       </p>
     ),
     links: [
@@ -96,13 +96,11 @@ export const projects: ProjectItem[] = [
   },
   {
     logoFont: "🎓",
-    title: "大学生就业推荐系统",
+    title: t("projects.items.campus.title"),
     content: <Image src={campusUI} />,
     description: (
       <p>
-        读书时做的大学生 <HighLight isDark>就业推荐系统</HighLight>
-        ，仅前端展示部分，通过{" "}
-        <HighLight isDark>Vue.js + Element UI + ECharts</HighLight> 开发。
+        {t("projects.items.campus.description")}
       </p>
     ),
     links: [
@@ -124,12 +122,11 @@ export const projects: ProjectItem[] = [
   },
   {
     logoFont: "📡",
-    title: "小傻瓜导航站点",
+    title: t("projects.items.navigator.title"),
     content: <Image src={navigatorUI} />,
     description: (
       <p>
-        为女朋友量身定制的 <HighLight isDark>导航站点</HighLight>，通过{" "}
-        <HighLight isDark>JQuery</HighLight> 开发。单身狗快撤 🤪
+        {t("projects.items.navigator.description")}
       </p>
     ),
     links: [
@@ -153,12 +150,11 @@ export const projects: ProjectItem[] = [
   },
   {
     logoFont: "📒",
-    title: "小本本记账",
+    title: t("projects.items.charge.title"),
     content: <Image src={chargeUI} />,
     description: (
       <p>
-        用 <HighLight isDark>React.js + TypeScript + ECharts</HighLight>{" "}
-        开发的一款属于自己的极简记账应用。
+        {t("projects.items.charge.description")}
       </p>
     ),
     links: [
@@ -182,13 +178,11 @@ export const projects: ProjectItem[] = [
   },
   {
     logoFont: "🌲",
-    title: "dombox 工具库",
+    title: t("projects.items.dombox.title"),
     content: <Image src={domboxUI} />,
     description: (
       <p>
-        一个高效、精简、功能丰富的{" "}
-        <HighLight isDark>JavaScript 工具库</HighLight>。它提供的 API
-        易于使用，这让诸如 HTML 文档遍历和操作、事件处理操作更加简单。
+        {t("projects.items.dombox.description")}
       </p>
     ),
     links: [
@@ -201,12 +195,11 @@ export const projects: ProjectItem[] = [
   },
   {
     logoFont: "✨",
-    title: "CSS 魔法世界",
+    title: t("projects.items.sunshine.title"),
     content: <Image src={sunshineUI} />,
     description: (
       <p>
-        自己在学期前端初期搞的一些有趣的{" "}
-        <HighLight isDark>CSS animation 效果</HighLight> 🤪
+        {t("projects.items.sunshine.description")}
       </p>
     ),
     links: [
@@ -226,14 +219,11 @@ export const projects: ProjectItem[] = [
   },
   {
     logoFont: "🌏",
-    title: "高德地图「海量点标记 + 海量标注」卡顿问题 解决方案",
+    title: t("projects.items.amap.title"),
     content: <Image src={amapOptimizationDemoUI} />,
     description: (
       <p>
-        针对数据量较大时 高德地图「海量点标记 + 海量标注」
-        <HighLight isDark>卡顿问题</HighLight>{" "}
-        提供了一整套优化方案。整体性能优化提升{" "}
-        <HighLight isDark>300%</HighLight> 🎉
+        {t("projects.items.amap.description")}
       </p>
     ),
     links: [
@@ -258,12 +248,11 @@ export const projects: ProjectItem[] = [
   },
   {
     logoFont: "👆",
-    title: "可拖拽的多层级树形组件",
+    title: t("projects.items.dnd.title"),
     content: <Image src={dndDraggableTreeDemoUI} />,
     description: (
       <p>
-        基于 React <HighLight isDark>dnd-kit</HighLight>{" "}
-        的一款可拖拽的多层级树形排序组件
+        {t("projects.items.dnd.description")}
       </p>
     ),
     links: [
@@ -284,12 +273,11 @@ export const projects: ProjectItem[] = [
   },
   {
     logoFont: "🧷",
-    title: "RBAC 树形选择组件",
+    title: t("projects.items.rbac.title"),
     content: <Image src={rbacCheckboxTreeDemoUI} />,
     description: (
       <p>
-        一款基于角色的访问控制 checkbox 树形组件， 涉及{" "}
-        <HighLight isDark>多级权限联动选择</HighLight> 功能
+        {t("projects.items.rbac.description")}
       </p>
     ),
     links: [

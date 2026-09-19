@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useMemo } from "react";
 import useTyped from "../../../hooks/useTyped";
 // components
 import Timeline from "../../../components/Timeline";
@@ -10,71 +10,76 @@ import qfnu from "../../../assets/icons/qfnu.png";
 import neu from "../../../assets/icons/neu.png";
 import sohu from "../../../assets/icons/sohu.png";
 import fta from "../../../assets/icons/fta.png";
+// i18n
+import { useTranslation } from "react-i18next";
 // styles
 import styles from "./styles.module.scss";
 
-const strings = ["码农", "打工人", "程序员", "工程师", "前端开发"];
-
 const Life: React.FC = () => {
+  const { t } = useTranslation();
+  const strings = useMemo(
+    () => t("timeline.roles", { returnObjects: true }) as string[],
+    [t]
+  );
   const el = useTyped(strings, { loop: true });
 
   return (
     <Timeline>
       <TimelineHeader>1995</TimelineHeader>
-      <TimelineItem direction="right" time="9月" header="👶🏻" />
+      <TimelineItem direction="right" time={t("timeline.month.september")} header="👶🏻" />
       <TimelineHeader>...</TimelineHeader>
-      <TimelineItem header="🙇‍♂️ 好好学习..." />
+      <TimelineItem header={t("timeline.study")} />
       <TimelineHeader>2018</TimelineHeader>
       <TimelineItem
         direction="right"
-        time="6月"
-        header={["🎓 本科毕业 🎉"]}
+        time={t("timeline.month.june")}
+        header={[t("timeline.bachelorGraduation")]}
         node={
           <span className={styles.customNode}>
             <img width={46} src={qfnu} alt="qfnu" />
           </span>
         }
         content={[
-          "济宁，山东",
+          t("timeline.jining"),
           <span>
-            <HighLight>曲阜师范大学</HighLight> @ 软件工程
+            <HighLight>{t("timeline.qfnu")}</HighLight> @ {t("timeline.softwareEngineering")}
           </span>,
-          "最初写 C 和 Java，慢慢转写 JavaScript，前端真好玩！",
+          t("timeline.codingJourney"),
         ]}
       />
       <TimelineItem
-        time="9月"
+        time={t("timeline.month.september")}
         node={
           <span className={styles.customNode}>
             <img width={72} src={neu} alt="neu" />
           </span>
         }
         header={[
-          "✈️ 沈阳",
+          t("timeline.shenyang"),
           <span>
-            研究生入学 <HighLight>东北大学</HighLight>
+            {t("timeline.graduateAdmission")} <HighLight>{t("timeline.neu")}</HighLight>
           </span>,
         ]}
-        content={["在校学人工智能，自己搞前端、秋招刷题... 面试..."]}
+        content={[t("timeline.graduateStudy")]}
       />
       <TimelineHeader>2021</TimelineHeader>
       <TimelineItem
         direction="right"
-        time="6月"
-        header={["🎓 研究生毕业 🎉"]}
-        content={["大数据分析与人工智能实验室 @ 人工智能"]}
+        time={t("timeline.month.june")}
+        header={[t("timeline.masterGraduation")]}
+        content={[t("timeline.lab")]}
       />
       <TimelineItem
-        time="7月"
+        time={t("timeline.month.july")}
         node={
           <span className={styles.customNode}>
             <img width={70} src={sohu} alt="sohu" />
           </span>
         }
         header={[
-          "海淀，北京",
+          t("timeline.beijing"),
           <span className={styles.position}>
-            入职 <HighLight>@搜狐</HighLight> 🦊
+            {t("timeline.joined")} <HighLight>{t("timeline.sohu")}</HighLight> 🦊
             <span className={styles.typed} />
           </span>,
         ]}
@@ -82,20 +87,20 @@ const Life: React.FC = () => {
       <TimelineHeader>2023</TimelineHeader>
       <TimelineItem
         direction="right"
-        time="9月"
+        time={t("timeline.month.september")}
         node={
           <span className={styles.customNode}>
             <img width={70} src={fta} alt="FTA" />
           </span>
         }
         header={[
-          "南京，江苏",
+          t("timeline.nanjing"),
           <span className={styles.position}>
-            入职 <HighLight>@满帮</HighLight> 🚚 {" "}
+            {t("timeline.joined")} <HighLight>{t("timeline.fta")}</HighLight> 🚚 {" "}
             <span className={styles.typed} ref={el} />
           </span>,
         ]}
-        content={["和女朋友结束异地恋啦！🎉"]}
+        content={[t("timeline.reunion")]}
       />
       <TimelineHeader>🤔...</TimelineHeader>
     </Timeline>

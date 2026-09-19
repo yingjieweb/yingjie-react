@@ -1,0 +1,133 @@
+{
+  "language": { "switch": "切换到中文" },
+  "meta": { "title": "Yingjieweb | Personal Website" },
+  "punctuation": { "comma": "," },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "home": {
+    "greeting": "👋 Hi, I'm Yingjieweb,",
+    "role": "a frontend enthusiast 🤩,",
+    "workingPrefix": "currently working at ",
+    "company": "Sohu 🧱",
+    "sometimes": "Sometimes I ",
+    "typed": {
+      "tech": "talk tech.",
+      "blog": "write blog posts.",
+      "sports": "play ball."
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "👋 Hi, I'm yingjieweb 👻",
+    "profile": {
+      "intro": "I'm a <highlight>frontend enthusiast</highlight> from Yantai, Shandong. I currently work as a frontend developer at <highlight>Sohu in Beijing</highlight> 🧱",
+      "undergraduate": "I studied Software Engineering at <highlight>Qufu Normal University in Jining</highlight>. While there, I served in the university's <highlight>National Flag Guard</highlight> 🇨🇳 and trained incoming students. I sometimes wish I had joined the military for the experience 😕.",
+      "graduate": "After graduation, I spent three years pursuing a master's degree at <highlight>Northeastern University in Shenyang</highlight>. Compared with backend development and algorithms, I found that I <highlight>enjoy frontend development more</highlight>. Doing what you love can't be wrong 🤔",
+      "hobbies": "Besides coding, I enjoy playing basketball with friends 🏀 and working out 🏋 ...",
+      "dream": "As a child, I dreamed of becoming an astronaut 👨‍🚀. These days I focus less on one grand dream and more on a series of <highlight>small goals</highlight> 🌟",
+      "principle": "I hope to stay true to myself and keep learning frontend development one step at a time 🤔",
+      "career": "I'll keep learning frontend technologies 🎯 and work toward becoming a <highlight>senior frontend engineer</highlight> in three to five years! 👷"
+    },
+    "goal": {
+      "prefix": "I enjoy",
+      "code": "coding",
+      "middle": " not just to build something impressive 🐂 🍺,",
+      "suffix": "but to bring fun ideas to life"
+    }
+  },
+  "timeline": {
+    "month": { "june": "Jun", "july": "Jul", "september": "Sep" },
+    "study": "🙇‍♂️ Studied hard...",
+    "bachelorGraduation": "🎓 Bachelor's degree 🎉",
+    "jining": "Jining, Shandong",
+    "qfnu": "Qufu Normal University",
+    "softwareEngineering": "Software Engineering",
+    "codingJourney": "I started with C and Java, then gradually moved to JavaScript. Frontend is fun!",
+    "shenyang": "✈️ Shenyang",
+    "graduateAdmission": "Started graduate school at",
+    "neu": "Northeastern University",
+    "graduateStudy": "Studied AI, explored frontend development, practiced interview problems... and interviewed...",
+    "masterGraduation": "🎓 Master's degree 🎉",
+    "lab": "Big Data Analytics and AI Lab @ Artificial Intelligence",
+    "beijing": "Haidian, Beijing",
+    "joined": "Joined",
+    "sohu": "@Sohu",
+    "nanjing": "Nanjing, Jiangsu",
+    "fta": "@Full Truck Alliance",
+    "reunion": "No more long-distance relationship with my girlfriend! 🎉",
+    "roles": ["Coder", "Worker", "Programmer", "Engineer", "Frontend Developer"]
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "A collection of fun projects and articles 👻",
+    "more": "More fun projects and articles are on the way 🐒",
+    "techStack": "Tech Stack",
+    "items": {
+      "league": {
+        "title": "League of Legends UI",
+        "description": "A UI component library inspired by League of Legends, built with Vue.js."
+      },
+      "campus": {
+        "title": "Graduate Job Recommendation System",
+        "description": "A frontend demo of a graduate job recommendation system I built at university with Vue.js, Element UI, and ECharts."
+      },
+      "navigator": {
+        "title": "Personal Navigation Site",
+        "description": "A custom navigation site built for my girlfriend with JQuery. Singles, look away 🤪"
+      },
+      "charge": {
+        "title": "Minimal Expense Tracker",
+        "description": "My own minimalist expense-tracking app, built with React.js, TypeScript, and ECharts."
+      },
+      "dombox": {
+        "title": "dombox Utility Library",
+        "description": "A fast, compact, and feature-rich JavaScript utility library with easy-to-use APIs for DOM traversal, manipulation, and event handling."
+      },
+      "sunshine": {
+        "title": "CSS Magic World",
+        "description": "A collection of fun CSS animation effects I made when I first started learning frontend development 🤪"
+      },
+      "amap": {
+        "title": "AMap Mass-Marker Performance Solution",
+        "description": "A complete solution for lag caused by large numbers of markers and labels in AMap, improving overall performance by 300% 🎉"
+      },
+      "dnd": {
+        "title": "Draggable Multi-level Tree",
+        "description": "A draggable, sortable multi-level tree component for React, built with dnd-kit."
+      },
+      "rbac": {
+        "title": "RBAC Checkbox Tree",
+        "description": "A role-based access-control checkbox tree with linked permission selection across multiple levels."
+      }
+    }
+  },
+  "contact": {
+    "title": "How to find me? 😉",
+    "form": {
+      "name": {
+        "label": "Name",
+        "placeholder": "What should I call you?",
+        "required": "Please enter your name"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Your email address",
+        "required": "Please enter a valid email address"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "What would you like to say?",
+        "required": "Please enter your message"
+      },
+      "submit": "Send Message"
+    },
+    "messages": {
+      "success": "Message sent successfully!",
+      "error": "Failed to send message. Please try again later."
+    }
+  }
+}

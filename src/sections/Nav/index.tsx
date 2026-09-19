@@ -1,7 +1,11 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { CloseOutlined, MenuOutlined } from "@ant-design/icons";
 import classNames from "classnames";
+// constants
 import { navItems } from "./constants";
+// i18n
+import { useTranslation } from "react-i18next";
+// styles
 import styles from "./styles.module.scss";
 
 export interface NavItem {
@@ -10,8 +14,14 @@ export interface NavItem {
 }
 
 const Nav: React.FC = () => {
+  const { t, i18n } = useTranslation();
   const [activeItem, setActiveItem] = useState<string>("#home");
   const [verticalNavVisible, setVerticalNavVisible] = useState<boolean>(false);
+
+  useEffect(() => {
+    document.documentElement.lang = i18n.resolvedLanguage === "en" ? "en" : "zh-CN";
+    document.title = t("meta.title");
+  }, [i18n.resolvedLanguage, t]);
 
   const scrollTo = (targetEl: string) => {
     const $targetEl = document.querySelector(targetEl);
@@ -38,9 +48,16 @@ const Nav: React.FC = () => {
               _hmt.push(['_trackEvent', 'navigator', 'click', nav.targetEl]);
             }}
           >
-            {nav.text}
+            {t(nav.text)}
           </li>
         ))}
+        <li
+          className={styles.languageBtn}
+          onClick={() => i18n.changeLanguage(i18n.resolvedLanguage === "zh" ? "en" : "zh")}
+          aria-label={t("language.switch")}
+        >
+          {i18n.resolvedLanguage === "zh" ? "EN" : "中"}
+        </li>
         {/* <li
           onClick={() => {
             window.open("");
@@ -69,7 +86,7 @@ const Nav: React.FC = () => {
                 scrollTo(nav.targetEl);
               }}
             >
-              {nav.text}
+              {t(nav.text)}
             </li>
           ))}
         </ul>

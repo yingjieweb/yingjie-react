@@ -1,27 +1,29 @@
 import React from "react";
 // common comps
 import Title from "../../components/Title";
-
+// import Button from "../../components/Button";
 // components
 import Profile from "./Profile";
 import Life from "./Life";
 import { Fade } from "react-awesome-reveal";
-
 import Paragraph from "../../components/Paragraph";
 import Section from "../../components/Section";
 import HighLight from "../../components/HighLight";
-// import Button from "../../components/Button";
-
+// i18n
+import { useTranslation } from "react-i18next";
 // styles
 import styles from "./styles.module.scss";
 
 // const resumeUrl = "https://github.yingjieweb.com/resume";
 
-const About: React.FC = () => (
-  <Section id="about" className={styles.about}>
-    <Title tag="h2">关于自己</Title>
+const About: React.FC = () => {
+  const { t } = useTranslation();
 
-    <Title tag="h3">👋，我是 yingjieweb 👻</Title>
+  return (
+  <Section id="about" className={styles.about}>
+    <Title tag="h2">{t("about.title")}</Title>
+
+    <Title tag="h3">{t("about.subtitle")}</Title>
 
     <Profile />
 
@@ -29,9 +31,9 @@ const About: React.FC = () => (
 
     <Fade direction="up">
       <Paragraph className={styles.goal}>
-        喜欢 <HighLight>写代码</HighLight>， 并不是为了做一个 🐂 🍺 的项目
+        {t("about.goal.prefix")} <HighLight>{t("about.goal.code")}</HighLight>{t("about.goal.middle")}
         <br />
-        而是可以把那些好玩的想法实现出来 👉{" "}
+        {t("about.goal.suffix")} 👉{" "}
         <span className={styles.justForFun}>Just for fun ~</span>
       </Paragraph>
     </Fade>
@@ -47,6 +49,7 @@ const About: React.FC = () => (
       </div>
     </Fade> */}
   </Section>
-);
+  );
+};
 
 export default About;

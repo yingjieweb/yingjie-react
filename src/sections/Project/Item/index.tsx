@@ -1,6 +1,9 @@
 import React, { ReactNode } from "react";
 import { Fade } from "react-awesome-reveal";
 import { Tooltip } from "antd";
+// i18n
+import { useTranslation } from "react-i18next";
+// styles
 import styles from "./styles.module.scss";
 
 interface Image {
@@ -20,6 +23,7 @@ export type ProjectItem = {
 };
 
 const Item: React.FC<ProjectItem> = (props) => {
+  const { t } = useTranslation();
   const {
     logo,
     logoFont,
@@ -71,7 +75,7 @@ const Item: React.FC<ProjectItem> = (props) => {
 
           {techUsed && (
             <div className={styles.techUsed}>
-              <h4>技术栈</h4>
+              <h4>{t("projects.techStack")}</h4>
               <ul>
                 {techUsed.map((tech, index) => (
                   <li

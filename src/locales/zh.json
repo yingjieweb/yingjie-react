@@ -1,0 +1,133 @@
+{
+  "language": { "switch": "Switch to English" },
+  "meta": { "title": "yingjieweb 个人主页" },
+  "punctuation": { "comma": "，" },
+  "nav": {
+    "home": "首页",
+    "about": "关于",
+    "projects": "项目",
+    "contact": "找我"
+  },
+  "home": {
+    "greeting": "👋 我是 Yingjieweb，",
+    "role": "一名前端爱好者 🤩，",
+    "workingPrefix": "目前在",
+    "company": "搜 狐 🧱",
+    "sometimes": "偶尔",
+    "typed": {
+      "tech": "聊聊技术。",
+      "blog": "写写博客。",
+      "sports": "打打球。"
+    }
+  },
+  "about": {
+    "title": "关于自己",
+    "subtitle": "👋，我是 yingjieweb 👻",
+    "profile": {
+      "intro": "一名 <highlight>前端爱好者</highlight>，山东烟台人。目前在 <highlight>搜狐 @ 北京</highlight> 从事前端开发 🧱",
+      "undergraduate": "本科就读于省内的 <highlight>曲阜师范大学 @ 济宁</highlight> 软件工程专业。大学期间，参加过学校的 <highlight>国旗护卫队</highlight> 🇨🇳，担任过新生军训教官，后悔没去当兵历练一下 😕。",
+      "graduate": "毕业之后去 <highlight>东北大学 @ 沈阳</highlight> 读了 3 年研究生。相比后端和算法，个人感觉还是 <highlight>更喜欢前端</highlight>，觉得做喜欢的事情是不会有错的 🤔",
+      "hobbies": "平时除了喜欢写点代码之外，还喜欢和小伙伴们打打篮球 🏀，健健身 🏋 ...",
+      "dream": "小时候的梦想是当宇航员 👨‍🚀，当下这个年纪好像没什么大的梦想，而是一个个阶段性的 <highlight>小目标</highlight> 🌟",
+      "principle": "希望自己能不忘初心，踏踏实实学点前端 🤔",
+      "career": "持续学习前端知识 🎯，争取三到五年能够成为一名 <highlight>高级前端工程师</highlight>！👷"
+    },
+    "goal": {
+      "prefix": "喜欢",
+      "code": "写代码",
+      "middle": "，并不是为了做一个 🐂 🍺 的项目",
+      "suffix": "而是可以把那些好玩的想法实现出来"
+    }
+  },
+  "timeline": {
+    "month": { "june": "6月", "july": "7月", "september": "9月" },
+    "study": "🙇‍♂️ 好好学习...",
+    "bachelorGraduation": "🎓 本科毕业 🎉",
+    "jining": "济宁，山东",
+    "qfnu": "曲阜师范大学",
+    "softwareEngineering": "软件工程",
+    "codingJourney": "最初写 C 和 Java，慢慢转写 JavaScript，前端真好玩！",
+    "shenyang": "✈️ 沈阳",
+    "graduateAdmission": "研究生入学",
+    "neu": "东北大学",
+    "graduateStudy": "在校学人工智能，自己搞前端、秋招刷题... 面试...",
+    "masterGraduation": "🎓 研究生毕业 🎉",
+    "lab": "大数据分析与人工智能实验室 @ 人工智能",
+    "beijing": "海淀，北京",
+    "joined": "入职",
+    "sohu": "@搜狐",
+    "nanjing": "南京，江苏",
+    "fta": "@满帮",
+    "reunion": "和女朋友结束异地恋啦！🎉",
+    "roles": ["码农", "打工人", "程序员", "工程师", "前端开发"]
+  },
+  "projects": {
+    "title": "个人项目",
+    "subtitle": "超多好玩、有趣的项目和文章 👻",
+    "more": "更多好玩、有趣的项目和文章正在路上 🐒",
+    "techStack": "技术栈",
+    "items": {
+      "league": {
+        "title": "League of Legends UI",
+        "description": "一个基于英雄联盟样式的 UI 组件库，通过 Vue.js 开发。"
+      },
+      "campus": {
+        "title": "大学生就业推荐系统",
+        "description": "读书时做的大学生就业推荐系统，仅前端展示部分，通过 Vue.js + Element UI + ECharts 开发。"
+      },
+      "navigator": {
+        "title": "小傻瓜导航站点",
+        "description": "为女朋友量身定制的导航站点，通过 JQuery 开发。单身狗快撤 🤪"
+      },
+      "charge": {
+        "title": "小本本记账",
+        "description": "用 React.js + TypeScript + ECharts 开发的一款属于自己的极简记账应用。"
+      },
+      "dombox": {
+        "title": "dombox 工具库",
+        "description": "一个高效、精简、功能丰富的 JavaScript 工具库。它提供的 API 易于使用，这让诸如 HTML 文档遍历和操作、事件处理操作更加简单。"
+      },
+      "sunshine": {
+        "title": "CSS 魔法世界",
+        "description": "自己在学习前端初期做的一些有趣的 CSS animation 效果 🤪"
+      },
+      "amap": {
+        "title": "高德地图「海量点标记 + 海量标注」卡顿问题解决方案",
+        "description": "针对数据量较大时高德地图「海量点标记 + 海量标注」卡顿问题提供了一整套优化方案，整体性能提升 300% 🎉"
+      },
+      "dnd": {
+        "title": "可拖拽的多层级树形组件",
+        "description": "一款基于 React dnd-kit 的可拖拽多层级树形排序组件。"
+      },
+      "rbac": {
+        "title": "RBAC 树形选择组件",
+        "description": "一款基于角色的访问控制 checkbox 树形组件，支持多级权限联动选择。"
+      }
+    }
+  },
+  "contact": {
+    "title": "如何联系我？😉",
+    "form": {
+      "name": {
+        "label": "姓名",
+        "placeholder": "阁下怎么称呼？",
+        "required": "敢问阁下尊姓大名？"
+      },
+      "email": {
+        "label": "邮箱",
+        "placeholder": "邮箱，方便联系",
+        "required": "敢问阁下的邮箱是？"
+      },
+      "message": {
+        "label": "留言",
+        "placeholder": "留言，想说啥就说啥~",
+        "required": "多少说几句是个意思？"
+      },
+      "submit": "发送消息"
+    },
+    "messages": {
+      "success": "邮件已成功发送！",
+      "error": "发送失败，请稍后再试。"
+    }
+  }
+}

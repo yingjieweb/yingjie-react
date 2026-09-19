@@ -47,12 +47,16 @@
     &.navBtn {
       display: none;
     }
+    &.languageBtn {
+      color: #409EFF;
+    }
   }
   @media screen and (max-width: 992px) {
     .horizontalNav {
       li {
         display: none;
-        &.navBtn {
+        &.navBtn,
+        &.languageBtn {
           display: block;
         }
       }
