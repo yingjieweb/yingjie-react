@@ -128,6 +128,19 @@ const Life: React.FC = () => {
         ]}
         content={[t("timeline.fullStack"), t("timeline.aiAgent")]}
       />
+      <TimelineHeader>2026</TimelineHeader>
+      <TimelineItem
+        direction="right"
+        time={t("timeline.month.march")}
+        node={<span className={styles.customNode}>💒</span>}
+        header={[
+          t("timeline.sanya"),
+          <span key="married">
+            <HighLight>{t("timeline.married")}</HighLight> 💍
+          </span>,
+        ]}
+        content={[t("timeline.loveJourney"), t("timeline.loveOfMyLife")]}
+      />
       <TimelineHeader>🤔...</TimelineHeader>
     </Timeline>
   );

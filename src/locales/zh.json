@@ -31,13 +31,13 @@
       "graduate": "毕业之后去 <highlight>东北大学 @ 沈阳</highlight> 读了 3 年研究生，研究方向是人工智能。那时主要自己折腾前端，如今又绕回 <highlight>AI</highlight>，也开始写后端——技术栈兜兜转转，终于串起来了 🤖",
       "hobbies": "平时除了写代码，也喜欢和小伙伴打打篮球 🏀、台球 🎱，偶尔健健身 🏋 ...",
       "dream": "小时候的梦想是当宇航员 👨‍🚀，当下这个年纪好像没什么大的梦想，而是一个个阶段性的 <highlight>小目标</highlight> 🌟",
-      "career": "希望自己不只是把代码写好，也能做出真正 <highlight>有人愿意使用的产品</highlight> 🚀"
+      "career": "希望自己不只是把代码写好，也能把那些好玩的想法变成真正 <highlight>有人愿意使用的产品</highlight> 🚀"
     },
     "goal": {
       "prefix": "喜欢",
       "code": "写代码",
-      "middle": "，并不是为了做一个 🐂 🍺 的项目",
-      "suffix": "而是可以把那些好玩的想法实现出来"
+      "middle": "，不只是为了做一个多 🐮 的项目",
+      "suffix": "而是想把那些好玩的想法实现出来"
     }
   },
   "timeline": {
@@ -71,6 +71,10 @@
     "ammo": "@AMMO",
     "fullStack": "从前端走向全栈",
     "aiAgent": "开始折腾 AI Agent 🤖",
+    "sanya": "三亚，海南 🌴",
+    "married": "我们结婚啦！",
+    "loveJourney": "从毕业季的牵手，到异地时的坚守，再到同城后的朝夕相伴 👫",
+    "loveOfMyLife": "终于把年少时的喜欢变成了一生的挚爱 ❤️",
     "roles": ["程序员", "工程师", "全栈开发", "AI Agent Builder", "创业者"]
   },
   "projects": {
