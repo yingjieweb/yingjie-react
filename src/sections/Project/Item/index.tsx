@@ -12,6 +12,7 @@ interface Image {
 }
 
 export type ProjectItem = {
+  id: string;
   logo?: string;
   logoFont?: string;
   title?: string | ReactNode;
@@ -20,6 +21,13 @@ export type ProjectItem = {
   description?: string | ReactNode;
   links?: Image[];
   techUsed?: Image[];
+};
+
+const getLinkLabel = (url: string) => {
+  if (url.includes("github.com")) return "GitHub";
+  if (url.includes("juejin.cn")) return "Juejin";
+  if (url.includes("csdn.net")) return "CSDN";
+  return "Live preview";
 };
 
 const Item: React.FC<ProjectItem> = (props) => {
@@ -39,7 +47,13 @@ const Item: React.FC<ProjectItem> = (props) => {
     <div className={styles.item}>
       <Fade>
         <div className={styles.container}>
-          {logo && <img className={styles.logo} src={logo} alt="logo" />}
+          {logo && (
+            <img
+              className={styles.logo}
+              src={logo}
+              alt={typeof title === "string" ? `${title} logo` : "Project logo"}
+            />
+          )}
           {logoFont && <div className={styles.logoFont}>{logoFont}</div>}
 
           {title && <h4 className={styles.title}>{title}</h4>}
@@ -66,8 +80,9 @@ const Item: React.FC<ProjectItem> = (props) => {
                   href={link.content}
                   target="_blank"
                   rel="noreferrer"
+                  aria-label={getLinkLabel(link.content)}
                 >
-                  <img src={link.image} alt="linkImage" />
+                  <img src={link.image} alt="" />
                 </a>
               ))}
             </div>
@@ -83,7 +98,7 @@ const Item: React.FC<ProjectItem> = (props) => {
                     style={{ animationDelay: `${index * 300}ms` }}
                   >
                     <Tooltip placement="top" title={tech.content} color="black">
-                      <img src={tech.image} alt="techUsed" />
+                      <img src={tech.image} alt={tech.content} />
                     </Tooltip>
                   </li>
                 ))}

@@ -26,7 +26,7 @@ const Project: React.FC = () => {
         breakpointCols={{ default: 3, 992: 2, 786: 1 }}
       >
         {projects.map((project) => (
-          <Item {...project} key={project.logo} />
+          <Item {...project} key={project.id} />
         ))}
       </Masonry>
 

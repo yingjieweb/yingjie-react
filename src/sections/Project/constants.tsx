@@ -7,6 +7,7 @@ import { TFunction } from "i18next";
 import link from "../../assets/svgs/link.svg";
 import github from "../../assets/svgs/github.svg";
 import juejin from "../../assets/svgs/juejin.svg";
+import csdn from "../../assets/icons/csdn.png";
 
 // technology stack
 import css from "../../assets/icons/css.png";
@@ -63,6 +64,33 @@ import rbacCheckboxTreeDemoUI from "../../assets/screenshots/rbacCheckboxTreeDem
 // 可视项目
 export const getProjects = (t: TFunction): ProjectItem[] => [
   {
+    id: "amap",
+    logoFont: "🌏",
+    title: t("projects.items.amap.title"),
+    content: <Image src={amapOptimizationDemoUI} />,
+    description: <p>{t("projects.items.amap.description")}</p>,
+    links: [
+      {
+        content: "https://yingjieweb.github.io/amap-optimization-demo/",
+        image: link,
+      },
+      {
+        content: "https://github.com/yingjieweb/amap-optimization-demo",
+        image: github,
+      },
+      {
+        content:
+          "https://blog.csdn.net/Marker__/article/details/124321573?spm=1001.2014.3001.5501",
+        image: csdn,
+      },
+    ],
+    techUsed: [
+      { content: "Vue.js", image: vue },
+      { content: "Sass", image: scss },
+    ],
+  },
+  {
+    id: "league",
     logo: leagueoflegendsLogo,
     title: t("projects.items.league.title"),
     content: <Image src={leagueoflegendsUI} />,
@@ -91,6 +119,7 @@ export const getProjects = (t: TFunction): ProjectItem[] => [
     ],
   },
   {
+    id: "campus",
     logoFont: "🎓",
     title: t("projects.items.campus.title"),
     content: <Image src={campusUI} />,
@@ -113,6 +142,7 @@ export const getProjects = (t: TFunction): ProjectItem[] => [
     ],
   },
   {
+    id: "navigator",
     logoFont: "📡",
     title: t("projects.items.navigator.title"),
     content: <Image src={navigatorUI} />,
@@ -137,6 +167,7 @@ export const getProjects = (t: TFunction): ProjectItem[] => [
     ],
   },
   {
+    id: "charge",
     logoFont: "📒",
     title: t("projects.items.charge.title"),
     content: <Image src={chargeUI} />,
@@ -161,64 +192,7 @@ export const getProjects = (t: TFunction): ProjectItem[] => [
     ],
   },
   {
-    logoFont: "🌲",
-    title: t("projects.items.dombox.title"),
-    content: <Image src={domboxUI} />,
-    description: <p>{t("projects.items.dombox.description")}</p>,
-    links: [
-      {
-        content: "https://github.com/yingjieweb/dombox",
-        image: github,
-      },
-    ],
-    techUsed: [{ content: "JavaScript", image: js }],
-  },
-  {
-    logoFont: "✨",
-    title: t("projects.items.sunshine.title"),
-    content: <Image src={sunshineUI} />,
-    description: <p>{t("projects.items.sunshine.description")}</p>,
-    links: [
-      {
-        content: "https://yingjieweb.github.io/sunshine/#/hypnosis-circle",
-        image: link,
-      },
-      {
-        content: "https://github.com/yingjieweb/sunshine",
-        image: github,
-      },
-    ],
-    techUsed: [
-      { content: "JavaScript", image: js },
-      { content: "CSS", image: css },
-    ],
-  },
-  {
-    logoFont: "🌏",
-    title: t("projects.items.amap.title"),
-    content: <Image src={amapOptimizationDemoUI} />,
-    description: <p>{t("projects.items.amap.description")}</p>,
-    links: [
-      {
-        content: "https://yingjieweb.github.io/amap-optimization-demo/",
-        image: link,
-      },
-      {
-        content: "https://github.com/yingjieweb/amap-optimization-demo",
-        image: github,
-      },
-      {
-        content:
-          "https://blog.csdn.net/Marker__/article/details/124321573?spm=1001.2014.3001.5501",
-        image: juejin,
-      },
-    ],
-    techUsed: [
-      { content: "Vue.js", image: vue },
-      { content: "Sass", image: scss },
-    ],
-  },
-  {
+    id: "dnd",
     logoFont: "👆",
     title: t("projects.items.dnd.title"),
     content: <Image src={dndDraggableTreeDemoUI} />,
@@ -229,7 +203,7 @@ export const getProjects = (t: TFunction): ProjectItem[] => [
         image: link,
       },
       {
-        content: "https://yingjieweb.github.io/dnd-draggable-tree-demo/",
+        content: "https://github.com/yingjieweb/dnd-draggable-tree-demo",
         image: github,
       },
     ],
@@ -240,6 +214,7 @@ export const getProjects = (t: TFunction): ProjectItem[] => [
     ],
   },
   {
+    id: "rbac",
     logoFont: "🧷",
     title: t("projects.items.rbac.title"),
     content: <Image src={rbacCheckboxTreeDemoUI} />,
@@ -258,6 +233,41 @@ export const getProjects = (t: TFunction): ProjectItem[] => [
       { content: "React.js", image: react },
       { content: "Sass", image: scss },
       { content: "Ant Design", image: antd },
+    ],
+  },
+  {
+    id: "dombox",
+    logoFont: "🌲",
+    title: t("projects.items.dombox.title"),
+    content: <Image src={domboxUI} />,
+    description: <p>{t("projects.items.dombox.description")}</p>,
+    links: [
+      {
+        content: "https://github.com/yingjieweb/dombox",
+        image: github,
+      },
+    ],
+    techUsed: [{ content: "JavaScript", image: js }],
+  },
+  {
+    id: "sunshine",
+    logoFont: "✨",
+    title: t("projects.items.sunshine.title"),
+    content: <Image src={sunshineUI} />,
+    description: <p>{t("projects.items.sunshine.description")}</p>,
+    links: [
+      {
+        content: "https://yingjieweb.github.io/sunshine/#/hypnosis-circle",
+        image: link,
+      },
+      {
+        content: "https://github.com/yingjieweb/sunshine",
+        image: github,
+      },
+    ],
+    techUsed: [
+      { content: "JavaScript", image: js },
+      { content: "CSS", image: css },
     ],
   },
 ];
