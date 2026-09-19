@@ -10,14 +10,16 @@
   },
   "home": {
     "greeting": "👋 Hi, I'm Yingjieweb,",
-    "role": "a frontend enthusiast 🤩,",
-    "workingPrefix": "currently working at ",
-    "company": "Sohu 🧱",
+    "role": "a full-stack developer 🐒,",
+    "workingPrefix": "building at ",
+    "company": "AMMO",
+    "workingSuffix": " 🧱,",
+    "aiFocus": "mostly AI agents these days 🤖,",
     "sometimes": "Sometimes I ",
     "typed": {
       "tech": "talk tech.",
-      "blog": "write blog posts.",
-      "sports": "play ball."
+      "blog": "blog.",
+      "sports": "play pool."
     }
   },
   "about": {

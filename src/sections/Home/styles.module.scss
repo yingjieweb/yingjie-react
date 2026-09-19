@@ -14,10 +14,15 @@
     .intro {
       padding-top: 8vh;
       padding-left: 28px;
-      .sohu {
+      .ammo {
         font-size: 1em;
         font-weight: bold;
-        color: #fdd000;
+        color: #fd6060;
+        transition: opacity 0.3s;
+        &:hover {
+          opacity: 0.75;
+          text-decoration: underline;
+        }
       }
       .react {
         font-size: 1em;
@@ -27,7 +32,17 @@
       .vue {
         font-size: 1em;
         font-style: bold;
-        color: rgb(64, 184, 131);
+        color: #42b883;
+      }
+      .next {
+        font-size: 1em;
+        font-style: bold;
+        color: #000;
+      }
+      .python {
+        font-size: 1em;
+        font-style: bold;
+        color: #3776ab;
       }
       .sometime {
         font-size: 1em;
@@ -61,10 +76,11 @@
       p {
         letter-spacing: 2px;
         text-align: left;
-        font-size: 62px;
+        font-size: clamp(38px, 3.6vw, 54px);
         font-weight: 600;
         color: #002245;
-        line-height: 1.5;
+        line-height: 1.4;
+        white-space: nowrap;
       }
     }
     .avatarWrapper {
@@ -149,6 +165,7 @@
         padding-top: 4vh;
         p {
           font-size: 2em;
+          white-space: normal;
         }
         .del {
           &::before,

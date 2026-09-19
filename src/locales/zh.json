@@ -10,14 +10,16 @@
   },
   "home": {
     "greeting": "👋 我是 Yingjieweb，",
-    "role": "一名前端爱好者 🤩，",
+    "role": "一名全栈开发者 🐒，",
     "workingPrefix": "目前在",
-    "company": "搜 狐 🧱",
+    "company": "AMMO",
+    "workingSuffix": "创业 🧱，",
+    "aiFocus": "最近在搞 AI Agent 🤖，",
     "sometimes": "偶尔",
     "typed": {
       "tech": "聊聊技术。",
       "blog": "写写博客。",
-      "sports": "打打球。"
+      "sports": "打打台球。"
     }
   },
   "about": {

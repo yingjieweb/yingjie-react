@@ -12,6 +12,8 @@ import { useTranslation } from "react-i18next";
 // styles
 import styles from "./styles.module.scss";
 
+const ammoUrl = "https://www.linkedin.com/company/ammo-ai/";
+
 const Home: React.FC = () => {
   const { t } = useTranslation();
   const strings = useMemo(
@@ -36,12 +38,25 @@ const Home: React.FC = () => {
           <p>{t("home.greeting")}</p>
           <p>{t("home.role")}</p>
           <p>
-            {t("home.workingPrefix")}
-            <span className={styles.sohu}> {t("home.company")}</span>
-            {t("punctuation.comma")}
+            {t("home.workingPrefix")}{" "}
+            <a
+              className={styles.ammo}
+              href={ammoUrl}
+              target="_blank"
+              rel="noreferrer"
+            >
+              {t("home.company")}
+            </a>{" "}
+            {t("home.workingSuffix")}
           </p>
+          <p>{t("home.aiFocus")}</p>
           <p>
-            ✍ <span className={styles.react}> React </span>
+            ✍ <span className={styles.python}> Python </span>
+            {" · "}
+            <span className={styles.next}> Next.js </span>
+            {" · "}
+            <span className={styles.react}> React </span>
+            {" · "}
             <span className={styles.vue}> Vue</span>
             {t("punctuation.comma")}
           </p>
