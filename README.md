@@ -7,14 +7,14 @@
 
 - A full-stack developer and longtime frontend enthusiast, still passionate about writing code and building products 👻
 - From Yantai, Shandong. Software Engineering M.S. from [NEU](https://www.linkedin.com/school/%E4%B8%9C%E5%8C%97%E5%A4%A7%E5%AD%A6/). Building [@AMMO](https://www.linkedin.com/company/ammo-ai/); formerly [@Sohu](https://www.linkedin.com/company/sohu.com/) and [@FTA](https://www.linkedin.com/company/full-truck-alliance/) 🧱
-- Frontend → full stack. Now exploring AI Agents and backend—the pieces are finally coming together 🤖
+- Frontend → full stack. Now exploring AI Agents and backend—the pieces are finally coming together 🧩
 - Beyond coding, I enjoy playing basketball 🏀 and pool 🎱 with friends, and occasionally working out 🏋
-- Served in my university's National Flag Guard and trained freshmen—still wish I'd served in the military 😟
+- I joined my university's ceremonial flag guard and helped lead freshman military training—still one of my favorite college memories 🇨🇳
 - Once dreamed of becoming an astronaut 👨‍🚀; now I focus on one meaningful milestone at a time 🌟
 - My current milestones:
   - ~~Land an offer from a leading tech company 💪 and graduate successfully 👨‍🎓~~ July 14, 2021 ✅
-  - ~~Keep learning frontend and become a senior engineer in three to five years 📌👷~~ March 2025 ✅
-  - Go deeper into AI Agents and strengthen my AI model, backend, and engineering skills 🤖
+  - ~~Keep learning frontend and become a senior engineer in three to five years 👷~~ March 2025 ✅
+  - Go deeper into AI Agents and strengthen my AI model, backend, and engineering skills 🎯
 
 ## 🌱 Personal projects
 
