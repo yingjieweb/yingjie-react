@@ -1,19 +1,20 @@
 <h2> 👋 Hello, I'm Yingjieweb 
-  <a href="https://github.com/yingjieweb/yingjieweb" target="_black">
-    <img src="https://img.shields.io/badge/English-blue" alert="English" />
+  <a href="https://github.com/yingjieweb/yingjieweb" target="_blank">
+    <img src="https://img.shields.io/badge/English-blue" alt="English" />
     <img src="https://visitor-badge.laobi.icu/badge?page_id=yingjieweb" alt="visitor-badge" />
   </a>
 </h2>
 
-- 一名前端爱好者，希望自己能不忘初心，踏踏实实学点前端 👻
-- 山东烟台人，东北大学软件工程硕士，目前在搜狐从事前端开发 🧱
-- 相比后端和算法，个人更喜欢前端，觉得做喜欢的事情是不会有错的 😁
-- 平时除了喜欢写点代码之外，还喜欢和小伙伴们打打篮球 🏀 ，健健身 🏋 ...
-- 大学期间，参加过学校国旗护卫队，担任过新生军训教官，后悔没去当兵历练一下 😟
-- 小时候的梦想是当宇航员 👨‍🚀，当下这个年纪好像没什么大的梦想，而是一个个阶段性的小目标
+- 一名全栈开发者，也一直是一名前端爱好者，希望自己能不忘初心，踏踏实实写点代码、做点产品 👻
+- 山东烟台人，东北大学软件工程硕士，目前在 [@AMMO](https://www.linkedin.com/company/ammo-ai/) 创业 🧱
+- 从前端一路走到全栈，最近主要在折腾 AI Agent，也开始认真写后端——技术栈兜兜转转，终于串起来了 🤖
+- 平时除了喜欢写点代码，也喜欢和小伙伴们打打篮球 🏀、台球 🎱，偶尔健健身 🏋
+- 大学期间参加过学校的国旗护卫队，也担任过新生军训教官，偶尔还是会遗憾没有去当兵历练一下 😟
+- 小时候的梦想是当宇航员 👨‍🚀，现在好像也没有什么宏大的梦想，更喜欢认真完成一个个阶段性的小目标 🌟
 - 当下阶段的小目标：
   - ~~能秋招拿到大厂的 offer 💪，来年能够顺顺利利毕业 👨‍🎓~~ 2021.7.14 ✅
-  - 持续学习前端知识 📌，争取三到五年能够成为一名高级前端工程师！👷
+  - ~~持续学习前端知识 📌，争取三到五年能够成为一名高级前端工程师！👷~~ 2025.3 ✅
+  - 持续深入 AI Agent，补齐模型、后端与工程化能力，探索下一阶段的技术方向 🤖
 
 ## 🌱 Personal projects
 

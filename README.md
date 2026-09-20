@@ -1,18 +1,20 @@
 <h2> 👋 Hello, I'm Yingjieweb 
-  <a href="https://github.com/yingjieweb/yingjieweb/blob/master/README.zh-CN.md" target="_black">
-    <img src="https://img.shields.io/badge/简体中文-blue" alert="简体中文" />
+  <a href="https://github.com/yingjieweb/yingjieweb/blob/master/README.zh-CN.md" target="_blank">
+    <img src="https://img.shields.io/badge/简体中文-blue" alt="简体中文" />
     <img src="https://visitor-badge.laobi.icu/badge?page_id=yingjieweb" alt="visitor-badge" />
   </a>
 </h2>
 
-- Passionate about frontend development, committed to remaining true to my initial aspirations 👻.
-- Originally from Yantai, Shandong, China 🇨🇳, I hold a Master's degree in Software Engineering from Northeastern University.
-- Currently serving as a frontend developer at @FTA in Nanjing, previously contributing to @Sohu in Beijing 🧱.
-- Personally inclined towards frontend rather than backend and algorithms, embracing the joy of pursuing one's passion 😁.
-- Beyond coding, I take pleasure in playing basketball 🏀 with friends and maintaining a healthy lifestyle 🏋...
-- My childhood dream was to be an astronaut 👨‍🚀, but now, I am focused on more immediate goals rather than grand aspirations.
-  - ~~Successfully secured an offer from a top company 💪, and graduated smoothly 👨‍🎓~~ July 14, 2021 ✅ 
-  - Evolving into a senior frontend engineer 👷 within the next three to five years! 🎯
+- A full-stack developer and longtime frontend enthusiast, still passionate about writing code and building products 👻
+- Originally from Yantai, Shandong, with a Master's degree in Software Engineering from Northeastern University. Currently building [@AMMO](https://www.linkedin.com/company/ammo-ai/) 🧱
+- I started in frontend and gradually moved into full-stack development. These days, I'm mainly exploring AI Agents and getting serious about backend development—the pieces are finally coming together 🤖
+- Beyond coding, I enjoy playing basketball 🏀 and pool 🎱 with friends, and occasionally working out 🏋
+- At university, I served in the National Flag Guard and worked as a military training instructor for freshmen. I still sometimes wish I had experienced military service 😟
+- My childhood dream was to become an astronaut 👨‍🚀. These days, I don't have one grand dream—I prefer working toward one meaningful milestone at a time 🌟
+- My current milestones:
+  - ~~Land an offer from a leading tech company 💪 and graduate successfully 👨‍🎓~~ July 14, 2021 ✅
+  - ~~Keep learning frontend development 📌 and grow into a senior frontend engineer within three to five years 👷~~ March 2025 ✅
+  - Dive deeper into AI Agents, strengthen my foundations in models, backend development, and engineering, and explore the next stage of my technical journey 🤖
 
 ## 🌱 Personal projects
 
