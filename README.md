@@ -6,15 +6,15 @@
 </h2>
 
 - A full-stack developer and longtime frontend enthusiast, still passionate about writing code and building products 👻
-- Originally from Yantai, Shandong, with a Master's degree in Software Engineering from Northeastern University. Currently building [@AMMO](https://www.linkedin.com/company/ammo-ai/) 🧱
-- I started in frontend and gradually moved into full-stack development. These days, I'm mainly exploring AI Agents and getting serious about backend development—the pieces are finally coming together 🤖
+- From Yantai, Shandong. Software Engineering M.S. from [NEU](https://www.linkedin.com/school/%E4%B8%9C%E5%8C%97%E5%A4%A7%E5%AD%A6/). Building [@AMMO](https://www.linkedin.com/company/ammo-ai/); formerly [@Sohu](https://www.linkedin.com/company/sohu.com/) and [@FTA](https://www.linkedin.com/company/full-truck-alliance/) 🧱
+- Frontend → full stack. Now exploring AI Agents and backend—the pieces are finally coming together 🤖
 - Beyond coding, I enjoy playing basketball 🏀 and pool 🎱 with friends, and occasionally working out 🏋
-- At university, I served in the National Flag Guard and worked as a military training instructor for freshmen. I still sometimes wish I had experienced military service 😟
-- My childhood dream was to become an astronaut 👨‍🚀. These days, I don't have one grand dream—I prefer working toward one meaningful milestone at a time 🌟
+- Served in my university's National Flag Guard and trained freshmen—still wish I'd served in the military 😟
+- Once dreamed of becoming an astronaut 👨‍🚀; now I focus on one meaningful milestone at a time 🌟
 - My current milestones:
   - ~~Land an offer from a leading tech company 💪 and graduate successfully 👨‍🎓~~ July 14, 2021 ✅
-  - ~~Keep learning frontend development 📌 and grow into a senior frontend engineer within three to five years 👷~~ March 2025 ✅
-  - Dive deeper into AI Agents, strengthen my foundations in models, backend development, and engineering, and explore the next stage of my technical journey 🤖
+  - ~~Keep learning frontend and become a senior engineer in three to five years 📌👷~~ March 2025 ✅
+  - Go deeper into AI Agents and strengthen my AI model, backend, and engineering skills 🤖
 
 ## 🌱 Personal projects
 

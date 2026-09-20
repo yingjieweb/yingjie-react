@@ -6,7 +6,7 @@
 </h2>
 
 - 一名全栈开发者，也一直是一名前端爱好者，希望自己能不忘初心，踏踏实实写点代码、做点产品 👻
-- 山东烟台人，东北大学软件工程硕士，目前在 [@AMMO](https://www.linkedin.com/company/ammo-ai/) 创业 🧱
+- 山东烟台人，[东北大学](https://www.linkedin.com/school/%E4%B8%9C%E5%8C%97%E5%A4%A7%E5%AD%A6/)软件工程硕士，目前在 [@AMMO](https://www.linkedin.com/company/ammo-ai/) 创业，曾就职于 [@搜狐](https://www.linkedin.com/company/sohu.com/) 和 [@满帮](https://www.linkedin.com/company/full-truck-alliance/) 🧱
 - 从前端一路走到全栈，最近主要在折腾 AI Agent，也开始认真写后端——技术栈兜兜转转，终于串起来了 🤖
 - 平时除了喜欢写点代码，也喜欢和小伙伴们打打篮球 🏀、台球 🎱，偶尔健健身 🏋
 - 大学期间参加过学校的国旗护卫队，也担任过新生军训教官，偶尔还是会遗憾没有去当兵历练一下 😟
