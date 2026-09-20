@@ -28,6 +28,6 @@ export const contacts = [
   {
     label: "CSDN",
     image: csdn,
-    url: "https://blog.csdn.net/Marker__",
+    url: "https://yingjieweb.blog.csdn.net",
   },
 ];

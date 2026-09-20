@@ -37,7 +37,7 @@ Here are some personal projects I've built over the years 🧐. If you find some
 
 Here are a few demos and solutions from technical problems I've explored at school and work 🤔.
 
-- [amap-optimization-demo](https://github.com/yingjieweb/amap-optimization-demo) - [AMap "mass point mark + mass label" performance solution](https://blog.csdn.net/Marker__/article/details/124321573?spm=1001.2014.3001.5501) - [Preview](https://yingjieweb.github.io/amap-optimization-demo/)
+- [amap-optimization-demo](https://github.com/yingjieweb/amap-optimization-demo) - [AMap "mass point mark + mass label" performance solution](https://yingjieweb.blog.csdn.net/article/details/124321573) - [Preview](https://yingjieweb.github.io/amap-optimization-demo/)
 - [dnd-draggable-tree-demo](https://github.com/yingjieweb/dnd-draggable-tree-demo) - A draggable multi-level tree component based on dnd-kit - [Preview](https://yingjieweb.github.io/dnd-draggable-tree-demo/)
 - [RBAC-checkbox-tree-demo](https://github.com/yingjieweb/RBAC-checkbox-tree-demo) - A checkbox tree component for role-based access control - [Preview](https://yingjieweb.github.io/RBAC-checkbox-tree-demo/)
 - [diy-h5-platform-demo](https://github.com/yingjieweb/diy-h5-platform-demo) - A simple self-made H5 low-code platform - [Preview](https://yingjieweb.github.io/diy-h5-platform-demo/)
@@ -46,13 +46,13 @@ Here are a few demos and solutions from technical problems I've explored at scho
 
 A selection of notes and solutions I've written while learning and solving real-world problems 📝.
 
-- [A Quick Look at Webpack, Loaders, and Plugins](https://blog.csdn.net/Marker__/article/details/131624789?spm=1001.2014.3001.5501)
-- [Exploring pnpm, a Fast and Efficient Package Manager](https://blog.csdn.net/Marker__/article/details/131591549?spm=1001.2014.3001.5501)
-- [Getting Started with NestJS](https://blog.csdn.net/Marker__/article/details/131330275?spm=1001.2014.3001.5501)
-- [AMap Mass Marker and Label Performance Optimization](https://blog.csdn.net/Marker__/article/details/124321573?spm=1001.2014.3001.5501)
-- [Optimizing SVG Symbols with svg-sprite-loader and svgo-loader](https://blog.csdn.net/Marker__/article/details/123913946?spm=1001.2014.3001.5501)
-- [Web Frontend Performance Optimization](https://blog.csdn.net/Marker__/article/details/122262923?spm=1001.2014.3001.5501)
-- More articles on [CSDN](https://blog.csdn.net/Marker__) and [Juejin](https://juejin.cn/user/2576910988098888).
+- [A Quick Look at Webpack, Loaders, and Plugins](https://yingjieweb.blog.csdn.net/article/details/131624789)
+- [Exploring pnpm, a Fast and Efficient Package Manager](https://yingjieweb.blog.csdn.net/article/details/131591549)
+- [Getting Started with NestJS](https://yingjieweb.blog.csdn.net/article/details/131330275)
+- [AMap Mass Marker and Label Performance Optimization](https://yingjieweb.blog.csdn.net/article/details/124321573)
+- [Optimizing SVG Symbols with svg-sprite-loader and svgo-loader](https://yingjieweb.blog.csdn.net/article/details/123913946)
+- [Web Frontend Performance Optimization](https://yingjieweb.blog.csdn.net/article/details/122262923)
+- More articles on [CSDN](https://yingjieweb.blog.csdn.net) and [Juejin](https://juejin.cn/user/2576910988098888).
 
 ## 🛠 My technology stacks
 

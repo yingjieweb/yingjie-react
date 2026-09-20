@@ -80,7 +80,7 @@ export const getProjects = (t: TFunction): ProjectItem[] => [
       },
       {
         content:
-          "https://blog.csdn.net/Marker__/article/details/124321573?spm=1001.2014.3001.5501",
+          "https://yingjieweb.blog.csdn.net/article/details/124321573",
         image: csdn,
       },
     ],

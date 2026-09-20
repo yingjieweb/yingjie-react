@@ -37,7 +37,7 @@
 
 下面是我在学习和工作中针对一些技术问题做的实践、Demo 与总结 🤔
 
-- [amap-optimization-demo](https://github.com/yingjieweb/amap-optimization-demo) - [高德地图「海量点标记 + 海量标注」卡顿问题解决方案](https://blog.csdn.net/Marker__/article/details/124321573?spm=1001.2014.3001.5501) - [预览](https://yingjieweb.github.io/amap-optimization-demo/)
+- [amap-optimization-demo](https://github.com/yingjieweb/amap-optimization-demo) - [高德地图「海量点标记 + 海量标注」卡顿问题解决方案](https://yingjieweb.blog.csdn.net/article/details/124321573) - [预览](https://yingjieweb.github.io/amap-optimization-demo/)
 - [dnd-draggable-tree-demo](https://github.com/yingjieweb/dnd-draggable-tree-demo) - 一款基于 dnd-kit 的可拖拽多层级树形组件 - [预览](https://yingjieweb.github.io/dnd-draggable-tree-demo/)
 - [RBAC-checkbox-tree-demo](https://github.com/yingjieweb/RBAC-checkbox-tree-demo) - 一款基于角色的访问控制 checkbox 树形组件 - [预览](https://yingjieweb.github.io/RBAC-checkbox-tree-demo/)
 - [diy-h5-platform-demo](https://github.com/yingjieweb/diy-h5-platform-demo) - 一个支持拖拽式、可视化的自制 H5 低代码平台 - [预览](https://yingjieweb.github.io/diy-h5-platform-demo/)
@@ -46,13 +46,13 @@
 
 记录一些学习过程和实际问题的解决方案，也顺便整理自己的思考 📝
 
-- [浅谈一下 webpack 以及 loader 和 plugin](https://blog.csdn.net/Marker__/article/details/131624789?spm=1001.2014.3001.5501)
-- [研究一下「pnpm」这个神奇的包管理工具](https://blog.csdn.net/Marker__/article/details/131591549?spm=1001.2014.3001.5501)
-- [知道了，去卷后端 →「NestJS 入门及实践」：）](https://blog.csdn.net/Marker__/article/details/131330275?spm=1001.2014.3001.5501)
-- [高德地图「海量点标记 + 海量标注」卡顿问题解决方案](https://blog.csdn.net/Marker__/article/details/124321573?spm=1001.2014.3001.5501)
-- [使用 svg-sprite-loader、svgo-loader 优化 svg symbols](https://blog.csdn.net/Marker__/article/details/123913946?spm=1001.2014.3001.5501)
-- [浅谈 Web 前端性能优化](https://blog.csdn.net/Marker__/article/details/122262923?spm=1001.2014.3001.5501)
-- 更多文章：[CSDN](https://blog.csdn.net/Marker__)、[掘金](https://juejin.cn/user/2576910988098888)
+- [浅谈一下 webpack 以及 loader 和 plugin](https://yingjieweb.blog.csdn.net/article/details/131624789)
+- [研究一下「pnpm」这个神奇的包管理工具](https://yingjieweb.blog.csdn.net/article/details/131591549)
+- [知道了，去卷后端 →「NestJS 入门及实践」：）](https://yingjieweb.blog.csdn.net/article/details/131330275)
+- [高德地图「海量点标记 + 海量标注」卡顿问题解决方案](https://yingjieweb.blog.csdn.net/article/details/124321573)
+- [使用 svg-sprite-loader、svgo-loader 优化 svg symbols](https://yingjieweb.blog.csdn.net/article/details/123913946)
+- [浅谈 Web 前端性能优化](https://yingjieweb.blog.csdn.net/article/details/122262923)
+- 更多文章：[CSDN](https://yingjieweb.blog.csdn.net)、[掘金](https://juejin.cn/user/2576910988098888)
 
 ## 🛠 My technology stacks
 
