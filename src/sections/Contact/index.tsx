@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from "react";
 import { Form, Input, Button, message } from "antd";
+import useLottie from "../../hooks/useLottie";
 // components
-import { Fade } from "react-awesome-reveal";
 import Section from "../../components/Section";
-import Title from "../../components/Title";
 // utils
 import emailjs from "@emailjs/browser";
 import { detectMobile } from "../../utils";
 // constants
 import { contacts } from "./constants";
 import { EMAILJS_CONFIG } from "../../config/emailjs";
+import dragonLottieData from "../../assets/lottie/dragon.json";
 // i18n
 import { useTranslation } from "react-i18next";
 // styles
@@ -21,6 +21,7 @@ const Contact: React.FC = () => {
   const [form] = Form.useForm();
   const [isLoading, setIsLoading] = useState(false);
   const { t } = useTranslation();
+  const dragonLottieRef = useLottie(dragonLottieData);
 
   useEffect(() => {
     emailjs.init(EMAILJS_CONFIG.PUBLIC_KEY);
@@ -44,7 +45,8 @@ const Contact: React.FC = () => {
         message.success(t("contact.messages.success"));
         form.resetFields();
       })
-      .catch(() => {
+      .catch((error) => {
+        console.error("EmailJS send failed:", error);
         message.error(t("contact.messages.error"));
       })
       .finally(() => {
@@ -58,11 +60,19 @@ const Contact: React.FC = () => {
       className={styles.contact}
       style={{ backgroundAttachment: isMobile ? "initial" : "fixed" }}
     >
-      <Fade direction="up">
-        <div className={styles.container}>
-          <Title tag="h2">{t("contact.title")}</Title>
-          <Form form={form} onFinish={onFinish} layout="vertical">
+      <div className={styles.shell}>
+        <div className={styles.formPanel}>
+          <h2>{t("contact.title")}</h2>
+          <p className={styles.subtitle}>{t("contact.subtitle")}</p>
+
+          <Form
+            className={styles.form}
+            form={form}
+            onFinish={onFinish}
+            layout="vertical"
+          >
             <Form.Item
+              label={t("contact.form.name.label")}
               name="name"
               rules={[
                 { required: true, message: t("contact.form.name.required") },
@@ -71,6 +81,7 @@ const Contact: React.FC = () => {
               <Input placeholder={t("contact.form.name.placeholder")} />
             </Form.Item>
             <Form.Item
+              label={t("contact.form.email.label")}
               name="email"
               rules={[
                 {
@@ -83,9 +94,13 @@ const Contact: React.FC = () => {
               <Input placeholder={t("contact.form.email.placeholder")} />
             </Form.Item>
             <Form.Item
+              label={t("contact.form.message.label")}
               name="message"
               rules={[
-                { required: true, message: t("contact.form.message.required") },
+                {
+                  required: true,
+                  message: t("contact.form.message.required"),
+                },
               ]}
             >
               <Input.TextArea
@@ -93,11 +108,10 @@ const Contact: React.FC = () => {
                 rows={4}
               />
             </Form.Item>
-            <Form.Item>
+            <Form.Item className={styles.submitItem}>
               <Button
-                type="primary"
+                className={styles.submit}
                 htmlType="submit"
-                block
                 loading={isLoading}
                 disabled={isLoading}
               >
@@ -105,18 +119,34 @@ const Contact: React.FC = () => {
               </Button>
             </Form.Item>
           </Form>
+        </div>
 
+        <div className={styles.infoPanel}>
+          <div className={styles.speechBubble}>{t("contact.panelTitle")}</div>
+          <div className={styles.dragon} ref={dragonLottieRef} />
+          <p className={styles.description}>
+            <span>{t("contact.panelDescription.line1")}</span>
+            <span>{t("contact.panelDescription.line2")}</span>
+          </p>
+          <p className={styles.socialTitle}>{t("contact.socialTitle")}</p>
           <ul className={styles.contactList}>
             {contacts.map((contact) => (
-              <li key={contact.image}>
-                <a href={contact.url} target="_blank" rel="noreferrer">
-                  <img src={contact.image} alt="contactImage" />
+              <li key={contact.label}>
+                <a
+                  href={contact.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label={contact.label}
+                  title={contact.label}
+                >
+                  <img src={contact.image} alt="" />
                 </a>
               </li>
             ))}
           </ul>
+          <p className={styles.footer}>{t("contact.footer")}</p>
         </div>
-      </Fade>
+      </div>
     </Section>
   );
 };

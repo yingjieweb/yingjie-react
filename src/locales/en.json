@@ -128,7 +128,15 @@
     }
   },
   "contact": {
-    "title": "How to find me? 😉",
+    "title": "GET IN TOUCH :)",
+    "subtitle": "Want to talk tech, collaborate, or just say hi? Drop me a line.",
+    "panelTitle": "Let's build something fun 👋",
+    "panelDescription": {
+      "line1": "Whether it's tech, collaboration,",
+      "line2": "or simply saying hi, I'd love to hear from you."
+    },
+    "socialTitle": "You can also find me here",
+    "footer": "Built with React · Just for fun ~",
     "form": {
       "name": {
         "label": "Name",
@@ -145,7 +153,7 @@
         "placeholder": "What would you like to say?",
         "required": "Please enter your message"
       },
-      "submit": "Send Message"
+      "submit": "Send Message 🚀"
     },
     "messages": {
       "success": "Message sent successfully!",

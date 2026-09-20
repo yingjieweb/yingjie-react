@@ -122,7 +122,15 @@
     }
   },
   "contact": {
-    "title": "如何联系我？😉",
+    "title": "找我聊聊吧 :)",
+    "subtitle": "交个朋友？聊聊技术？谈场合作？欢迎来找我。",
+    "panelTitle": "一起做点好玩的？👋",
+    "panelDescription": {
+      "line1": "无论是技术交流、项目合作，",
+      "line2": "还是单纯打个招呼，都欢迎联系我。"
+    },
+    "socialTitle": "也可以在这些地方找到我",
+    "footer": "Built with React · Just for fun ~",
     "form": {
       "name": {
         "label": "姓名",
@@ -139,7 +147,7 @@
         "placeholder": "留言，想说啥就说啥~",
         "required": "多少说几句是个意思？"
       },
-      "submit": "发送消息"
+      "submit": "发送消息 🚀"
     },
     "messages": {
       "success": "邮件已成功发送！",
