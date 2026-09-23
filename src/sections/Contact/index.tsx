@@ -5,7 +5,6 @@ import useLottie from "../../hooks/useLottie";
 import Section from "../../components/Section";
 // utils
 import emailjs from "@emailjs/browser";
-import { detectMobile } from "../../utils";
 // constants
 import { contacts } from "./constants";
 import { EMAILJS_CONFIG } from "../../config/emailjs";
@@ -14,8 +13,6 @@ import dragonLottieData from "../../assets/lottie/dragon.json";
 import { useTranslation } from "react-i18next";
 // styles
 import styles from "./styles.module.scss";
-
-const isMobile = detectMobile();
 
 const Contact: React.FC = () => {
   const [form] = Form.useForm();
@@ -55,11 +52,7 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <Section
-      id="contact"
-      className={styles.contact}
-      style={{ backgroundAttachment: isMobile ? "initial" : "fixed" }}
-    >
+    <Section id="contact" className={styles.contact}>
       <div className={styles.shell}>
         <div className={styles.formPanel}>
           <h2>{t("contact.title")}</h2>
