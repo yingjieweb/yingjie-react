@@ -1,7 +1,7 @@
 <h2> 👋 Hello, I'm Yingjieweb 
-  <a href="https://github.com/yingjieweb/yingjieweb" target="_blank">
+  <a href="https://github.com/yingjieweb/yingjie-react" target="_blank">
     <img src="https://img.shields.io/badge/English-blue" alt="English" />
-    <img src="https://visitor-badge.laobi.icu/badge?page_id=yingjieweb" alt="visitor-badge" />
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=yingjieweb.yingjie-react" alt="visitor-badge" />
   </a>
 </h2>
 
@@ -22,8 +22,8 @@
 
 |   项目  |  简介  |  预览  |  技术  |
 |   ---   |  ---   |  ---   |  ---  |
-| **[yingjieweb](https://github.com/yingjieweb/yingjieweb)** | 👻 个人网站，收集了我的部分博客、项目等 | [Preview](https://yingjieweb.github.io) | <img src="https://img.shields.io/badge/React-20232A?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" alt="badge"> <img src="https://img.shields.io/badge/TS-007ACC?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="badge"> <img src="https://img.shields.io/badge/Ant Design-0170FE?style=flat-square&amp;logo=antdesign&amp;logoColor=white" alt="badge"> |
-| **[👻_next](https://github.com/yingjieweb/yingjie-next)** | 👻 个人主页，Next.js 版本 | [Preview](https://yingjie-next.vercel.app/) | <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&amp;logo=next.js&amp;logoColor=white" alt="badge"> <img src="https://img.shields.io/badge/TS-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="badge"> <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="badge"> |
+| **[yingjieweb](https://github.com/yingjieweb/yingjieweb)** | 👻 个人主页，Next.js 版本 | [Preview](https://yingjie-next.vercel.app/) | <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&amp;logo=next.js&amp;logoColor=white" alt="badge"> <img src="https://img.shields.io/badge/TS-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="badge"> <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="badge"> |
+| **[yingjie-react](https://github.com/yingjieweb/yingjie-react)** | 👻 个人主页，React 版本 | 待确认 | <img src="https://img.shields.io/badge/React-20232A?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" alt="badge"> <img src="https://img.shields.io/badge/TS-007ACC?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="badge"> <img src="https://img.shields.io/badge/Ant Design-0170FE?style=flat-square&amp;logo=antdesign&amp;logoColor=white" alt="badge"> |
 | **[league-ui](https://github.com/yingjieweb/league-ui)** | ⚙️ 一款以英雄联盟网游为主题的 UI 组件库 | [Preview](https://yingjieweb.github.io/league-ui-doc/#/intro) | <img src="https://img.shields.io/badge/Vue-35495E?style=flat-square&amp;logo=vue.js&amp;logoColor=4FC08" alt="badge"> <img src="https://img.shields.io/badge/Sass-CC6699?style=flat-square&amp;logo=sass&amp;logoColor=white" alt="badge"> <img src="https://img.shields.io/badge/npm-CB3837?style=flat-square&amp;logo=npm&amp;logoColor=white" alt="badge"> |
 | **[truck-cli](https://github.com/yingjieweb/truck-cli)** | 🚚 一个简化前端开发工作流程的命令行工具 | [Preview](https://github.com/yingjieweb/truck-cli#-truck-cli) | <img src="https://img.shields.io/badge/Node-339933?style=flat-square&amp;logo=node.js&amp;logoColor=white" alt="badge"> <img src="https://img.shields.io/badge/npm-CB3837?style=flat-square&amp;logo=npm&amp;logoColor=white" alt="badge"> |
 | **[campus](https://github.com/yingjieweb/campus)** | 🎓 读书时做的大学生就业推荐系统，仅前端部分 | [Preview](https://yingjieweb.github.io/campus/#/login) | <img src="https://img.shields.io/badge/Vue-35495E?style=flat-square&amp;logo=vue.js&amp;logoColor=4FC08" alt="badge"> <img src="https://img.shields.io/badge/Element UI-409eff?style=flat-square&amp;logo=Element&amp;logoColor=white" alt="badge"> <img src="https://img.shields.io/badge/ECharts-AA344D?style=flat-square&amp;logo=apacheecharts&amp;logoColor=white" alt="badge"> |
